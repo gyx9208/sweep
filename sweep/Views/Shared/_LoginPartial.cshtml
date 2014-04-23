@@ -1,0 +1,12 @@
+﻿@if (Request.Cookies["AccessToken"]!=null) {
+    <li class="active">
+        <a href="#">Welcome,@ViewBag.Name!</a>
+    </li>
+    <li>
+        @Html.ActionLink("Logout","Logout","Home")
+    </li>
+} else {
+    <li>
+        @Html.ActionLink("Login", "Login", "Home")
+    </li>
+}

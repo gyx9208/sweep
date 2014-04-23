@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+
+    </section>
+}
+@if (Request.Cookies["AccessToken"] != null)
+{
+    <div id="collect-info-div">
+        @using (Html.BeginForm("Collect", "Home", FormMethod.Post, new { id = "collectForm" })) {
+            @Html.AntiForgeryToken()
+            <text>如果您愿意提供您的粉丝和关注信息供我们研究，请</text><a href="javascript:document.getElementById('collectForm').submit()">点击这里</a>
+        }
+    </div>
+}

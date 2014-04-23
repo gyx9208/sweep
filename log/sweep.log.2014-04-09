@@ -1,0 +1,5 @@
+2014-04-09 17:59:20,604 ERROR sweep.Controllers.HomeController - goAuth
+NetDimension.Weibo.WeiboException: 提供的Access Grant是无效的、过期的或已撤销的
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters)
+   在 NetDimension.Weibo.OAuth.GetAccessToken(GrantType type, Dictionary`2 parameters)
+   在 sweep.Controllers.HomeController.goAuth(String code) 位置 f:\GitHub\sweep\sweep\Controllers\HomeController.cs:行号 64

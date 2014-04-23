@@ -1,0 +1,380 @@
+2014-04-22 21:52:59,201 INFO collect.CollectList - 2003423885
+2014-04-22 21:53:00,150 INFO collect.CollectThread - start get list
+2014-04-22 21:53:01,949 INFO collect.CollectThread - success 0
+2014-04-22 21:53:02,598 INFO collect.CollectThread - success 1
+2014-04-22 21:53:03,196 INFO collect.CollectThread - success 2
+2014-04-22 21:53:03,741 INFO collect.CollectThread - success 3
+2014-04-22 21:53:08,293 INFO collect.CollectThread - success 4
+2014-04-22 21:53:09,897 INFO collect.CollectThread - success 5
+2014-04-22 21:53:10,980 INFO collect.CollectThread - success 6
+2014-04-22 21:53:15,729 INFO collect.CollectThread - success 7
+2014-04-22 21:53:18,187 INFO collect.CollectThread - success 8
+2014-04-22 21:53:35,326 ERROR collect.CollectThread - time out 9;collect user error uid：5034965207
+2014-04-22 21:53:36,009 INFO collect.CollectThread - success 10
+2014-04-22 21:53:40,817 ERROR collect.CollectThread - time out 11;collect user error uid：5078873846
+2014-04-22 21:53:42,812 ERROR collect.CollectThread - time out 12;collect user error uid：3251426084
+2014-04-22 21:53:44,860 ERROR collect.CollectThread - time out 13;collect user error uid：3916750356
+2014-04-22 21:53:47,256 INFO collect.CollectThread - success 14
+2014-04-22 21:53:50,584 INFO collect.CollectThread - success 15
+2014-04-22 21:53:51,498 INFO collect.CollectThread - success 16
+2014-04-22 21:53:51,992 INFO collect.CollectThread - success 17
+2014-04-22 21:53:57,030 ERROR collect.CollectThread - time out 18;collect user error uid：1346938125
+2014-04-22 21:53:57,785 INFO collect.CollectThread - success 19
+2014-04-22 21:53:58,994 INFO collect.CollectThread - success 20
+2014-04-22 21:53:59,708 INFO collect.CollectThread - success 21
+2014-04-22 21:54:00,238 INFO collect.CollectThread - success 22
+2014-04-22 21:54:00,769 INFO collect.CollectThread - success 23
+2014-04-22 21:54:01,285 INFO collect.CollectThread - success 24
+2014-04-22 21:54:07,910 ERROR collect.CollectThread - time out 25;collect user error uid：1183849860
+2014-04-22 21:54:08,621 INFO collect.CollectThread - success 26
+2014-04-22 21:54:09,335 INFO collect.CollectThread - success 27
+2014-04-22 21:54:09,926 INFO collect.CollectThread - success 28
+2014-04-22 21:54:10,601 INFO collect.CollectThread - success 29
+2014-04-22 21:54:11,211 INFO collect.CollectThread - success 30
+2014-04-22 21:54:12,058 INFO collect.CollectThread - success 31
+2014-04-22 21:54:12,932 INFO collect.CollectThread - success 32
+2014-04-22 21:54:17,753 ERROR collect.CollectThread - time out 33;collect user error uid：1802635523
+2014-04-22 21:54:18,637 INFO collect.CollectThread - success 34
+2014-04-22 21:54:23,144 ERROR collect.CollectThread - time out 35;collect user error uid：3462883450
+2014-04-22 21:54:28,094 ERROR collect.CollectThread - time out 36;collect user error uid：2670170344
+2014-04-22 21:54:28,809 INFO collect.CollectThread - success 37
+2014-04-22 21:54:29,569 INFO collect.CollectThread - success 38
+2014-04-22 21:54:30,238 INFO collect.CollectThread - success 39
+2014-04-22 21:54:31,202 INFO collect.CollectThread - success 40
+2014-04-22 21:54:31,949 INFO collect.CollectThread - success 41
+2014-04-22 21:54:35,943 INFO collect.CollectThread - success 42
+2014-04-22 21:54:41,822 ERROR collect.CollectThread - time out 43;collect user error uid：1389417923
+2014-04-22 21:54:45,877 INFO collect.CollectThread - success 44
+2014-04-22 21:54:47,507 INFO collect.CollectThread - success 45
+2014-04-22 21:54:49,021 INFO collect.CollectThread - success 46
+2014-04-22 21:54:54,928 ERROR collect.CollectThread - time out 47;collect user error uid：2068614947
+2014-04-22 21:54:57,101 INFO collect.CollectThread - success 48
+2014-04-22 21:54:59,292 ERROR collect.CollectThread - time out 49;collect user error uid：2023573897
+2014-04-22 21:55:01,531 INFO collect.CollectThread - success 50
+2014-04-22 21:55:02,471 INFO collect.CollectThread - success 51
+2014-04-22 21:55:06,886 ERROR collect.CollectThread - time out 52;collect user error uid：1783179005
+2014-04-22 21:55:07,965 INFO collect.CollectThread - success 53
+2014-04-22 21:55:08,589 INFO collect.CollectThread - success 54
+2014-04-22 21:55:12,951 ERROR collect.CollectThread - time out 55;collect user error uid：1118731822
+2014-04-22 21:55:14,873 ERROR collect.CollectThread - time out 56;collect user error uid：1086206003
+2014-04-22 21:55:16,986 INFO collect.CollectThread - success 57
+2014-04-22 21:55:17,551 INFO collect.CollectThread - success 58
+2014-04-22 21:55:24,168 INFO collect.CollectThread - success 59
+2014-04-22 21:55:29,435 ERROR collect.CollectThread - time out 60;collect user error uid：1284563264
+2014-04-22 21:55:30,183 INFO collect.CollectThread - success 61
+2014-04-22 21:55:36,318 INFO collect.CollectThread - success 62
+2014-04-22 21:55:43,698 ERROR collect.CollectThread - time out 63;collect user error uid：1626454484
+2014-04-22 21:55:48,535 ERROR collect.CollectThread - time out 64;collect user error uid：1629137445
+2014-04-22 21:55:57,333 ERROR collect.CollectThread - time out 65;collect user error uid：2030954843
+2014-04-22 21:55:57,916 INFO collect.CollectThread - success 66
+2014-04-22 21:55:59,458 INFO collect.CollectThread - success 67
+2014-04-22 21:56:02,604 INFO collect.CollectThread - success 68
+2014-04-22 21:56:04,255 INFO collect.CollectThread - success 69
+2014-04-22 21:56:05,140 INFO collect.CollectThread - success 70
+2014-04-22 21:56:13,281 ERROR collect.CollectThread - time out 71;collect user error uid：2323550100
+2014-04-22 21:56:17,943 INFO collect.CollectThread - success 72
+2014-04-22 21:56:21,838 INFO collect.CollectThread - success 73
+2014-04-22 21:56:28,908 INFO collect.CollectThread - success 74
+2014-04-22 21:56:33,355 ERROR collect.CollectThread - time out 75;collect user error uid：2501326221
+2014-04-22 21:56:34,080 INFO collect.CollectThread - success 76
+2014-04-22 21:56:36,969 INFO collect.CollectThread - success 77
+2014-04-22 21:56:41,270 ERROR collect.CollectThread - time out 78;collect user error uid：2182198150
+2014-04-22 21:56:42,882 INFO collect.CollectThread - success 79
+2014-04-22 21:56:44,340 INFO collect.CollectThread - success 80
+2014-04-22 21:56:47,116 ERROR collect.CollectThread - time out 81;collect user error uid：1976039421
+2014-04-22 21:56:49,793 INFO collect.CollectThread - success 82
+2014-04-22 21:57:02,018 ERROR collect.CollectThread - time out 83;collect user error uid：1098296811
+2014-04-22 21:57:05,141 ERROR collect.CollectThread - time out 84;collect user error uid：2134130464
+2014-04-22 21:57:10,202 INFO collect.CollectThread - success 85
+2014-04-22 21:57:10,956 INFO collect.CollectThread - success 86
+2014-04-22 21:57:12,353 INFO collect.CollectThread - success 87
+2014-04-22 21:57:16,813 ERROR collect.CollectThread - time out 88;collect user error uid：1988089537
+2014-04-22 21:57:18,259 INFO collect.CollectThread - success 89
+2014-04-22 21:57:19,154 INFO collect.CollectThread - success 90
+2014-04-22 21:57:23,733 ERROR collect.CollectThread - time out 91;collect user error uid：2947682747
+2014-04-22 21:57:34,717 INFO collect.CollectThread - success 92
+2014-04-22 21:57:35,356 INFO collect.CollectThread - success 93
+2014-04-22 21:57:37,373 ERROR collect.CollectThread - time out 94;collect user error uid：2787536687
+2014-04-22 21:57:41,209 INFO collect.CollectThread - success 95
+2014-04-22 21:57:41,944 INFO collect.CollectThread - success 96
+2014-04-22 21:57:42,642 INFO collect.CollectThread - success 97
+2014-04-22 21:57:43,906 INFO collect.CollectThread - success 98
+2014-04-22 21:57:51,289 ERROR collect.CollectThread - time out 99;collect user error uid：3429103350
+2014-04-22 21:57:54,653 ERROR collect.CollectThread - time out 100;collect user error uid：2303910434
+2014-04-22 21:57:55,118 INFO collect.CollectThread - success 101
+2014-04-22 21:57:56,050 INFO collect.CollectThread - success 102
+2014-04-22 21:57:56,560 INFO collect.CollectThread - success 103
+2014-04-22 21:57:58,169 INFO collect.CollectThread - success 104
+2014-04-22 21:57:58,848 INFO collect.CollectThread - success 105
+2014-04-22 21:57:59,386 INFO collect.CollectThread - success 106
+2014-04-22 21:58:00,148 INFO collect.CollectThread - success 107
+2014-04-22 21:58:03,648 ERROR collect.CollectThread - fail 108;collect user error uid：1677941493
+2014-04-22 21:58:03,649 ERROR collect.CollectThread - Exception
+System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 25156。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   在 System.Xml.XmlTextReaderImpl.AttributeDuplCheck()
+   在 System.Xml.XmlTextReaderImpl.ParseAttributes()
+   在 System.Xml.XmlTextReaderImpl.ParseElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 collect.CollectThread.downloadPage(sinaaccounts account) 位置 f:\GitHub\sweep\collect\CollectThread.cs:行号 125
+2014-04-22 21:58:13,198 ERROR collect.CollectThread - time out 109;collect user error uid：2247657845
+2014-04-22 21:58:14,672 INFO collect.CollectThread - success 110
+2014-04-22 21:58:19,398 INFO collect.CollectThread - success 111
+2014-04-22 21:58:20,308 INFO collect.CollectThread - success 112
+2014-04-22 21:58:24,011 INFO collect.CollectThread - success 113
+2014-04-22 21:58:24,474 INFO collect.CollectThread - success 114
+2014-04-22 21:58:25,460 INFO collect.CollectThread - success 115
+2014-04-22 21:58:29,241 INFO collect.CollectThread - success 116
+2014-04-22 21:58:29,830 INFO collect.CollectThread - success 117
+2014-04-22 21:58:32,777 INFO collect.CollectThread - success 118
+2014-04-22 21:58:33,302 INFO collect.CollectThread - success 119
+2014-04-22 21:58:39,007 ERROR collect.CollectThread - time out 120;collect user error uid：1799402682
+2014-04-22 21:58:42,675 INFO collect.CollectThread - success 121
+2014-04-22 21:58:48,320 ERROR collect.CollectThread - time out 122;collect user error uid：1772191555
+2014-04-22 21:58:48,996 INFO collect.CollectThread - success 123
+2014-04-22 21:58:51,448 INFO collect.CollectThread - success 124
+2014-04-22 21:58:53,015 INFO collect.CollectThread - success 125
+2014-04-22 21:59:00,653 INFO collect.CollectThread - success 126
+2014-04-22 21:59:01,534 INFO collect.CollectThread - success 127
+2014-04-22 21:59:04,677 INFO collect.CollectThread - success 128
+2014-04-22 21:59:06,148 INFO collect.CollectThread - success 129
+2014-04-22 21:59:06,911 INFO collect.CollectThread - success 130
+2014-04-22 21:59:11,401 ERROR collect.CollectThread - time out 131;collect user error uid：1503607262
+2014-04-22 21:59:18,227 ERROR collect.CollectThread - time out 132;collect user error uid：1893826710
+2014-04-22 21:59:22,370 ERROR collect.CollectThread - time out 133;collect user error uid：1900569575
+2014-04-22 21:59:26,126 INFO collect.CollectThread - success 134
+2014-04-22 21:59:26,677 INFO collect.CollectThread - success 135
+2014-04-22 21:59:30,245 INFO collect.CollectThread - success 136
+2014-04-22 21:59:31,094 INFO collect.CollectThread - success 137
+2014-04-22 21:59:37,129 ERROR collect.CollectThread - time out 138;collect user error uid：1955181485
+2014-04-22 21:59:41,680 INFO collect.CollectThread - success 139
+2014-04-22 21:59:42,935 INFO collect.CollectThread - success 140
+2014-04-22 21:59:43,760 INFO collect.CollectThread - success 141
+2014-04-22 21:59:46,846 INFO collect.CollectThread - success 142
+2014-04-22 21:59:56,723 INFO collect.CollectThread - success 143
+2014-04-22 21:59:57,412 INFO collect.CollectThread - success 144
+2014-04-22 21:59:58,420 INFO collect.CollectThread - success 145
+2014-04-22 22:00:02,282 ERROR collect.CollectThread - time out 146;collect user error uid：2879460960
+2014-04-22 22:00:03,187 INFO collect.CollectThread - success 147
+2014-04-22 22:00:07,867 INFO collect.CollectThread - success 148
+2014-04-22 22:00:11,801 INFO collect.CollectThread - success 149
+2014-04-22 22:00:12,663 INFO collect.CollectThread - success 150
+2014-04-22 22:00:13,186 INFO collect.CollectThread - success 151
+2014-04-22 22:00:13,691 ERROR collect.CollectThread - fail 152;collect user error uid：1829847745
+2014-04-22 22:00:13,691 ERROR collect.CollectThread - Exception
+System.Xml.XmlException: 第 1 行，位置 5887 上的开始标记“li”与结束标记“ul”不匹配。 第 1 行，位置 6573。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   在 System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   在 System.Xml.XmlTextReaderImpl.ParseEndElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 collect.CollectThread.downloadPage(sinaaccounts account) 位置 f:\GitHub\sweep\collect\CollectThread.cs:行号 125
+2014-04-22 22:00:14,510 INFO collect.CollectThread - success 153
+2014-04-22 22:00:18,857 ERROR collect.CollectThread - time out 154;collect user error uid：1271542887
+2014-04-22 22:00:22,842 ERROR collect.CollectThread - time out 155;collect user error uid：1221680133
+2014-04-22 22:00:25,689 INFO collect.CollectThread - success 156
+2014-04-22 22:00:26,517 INFO collect.CollectThread - success 157
+2014-04-22 22:00:29,508 INFO collect.CollectThread - success 158
+2014-04-22 22:00:30,348 INFO collect.CollectThread - success 159
+2014-04-22 22:00:32,218 ERROR collect.CollectThread - time out 160;collect user error uid：1792882974
+2014-04-22 22:00:33,067 INFO collect.CollectThread - success 161
+2014-04-22 22:00:38,475 INFO collect.CollectThread - success 162
+2014-04-22 22:00:39,376 INFO collect.CollectThread - success 163
+2014-04-22 22:00:43,273 ERROR collect.CollectThread - time out 164;collect user error uid：1465474184
+2014-04-22 22:00:46,580 ERROR collect.CollectThread - fail 165;collect user error uid：1464081494
+2014-04-22 22:00:46,580 ERROR collect.CollectThread - Exception
+System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 22024。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   在 System.Xml.XmlTextReaderImpl.AttributeDuplCheck()
+   在 System.Xml.XmlTextReaderImpl.ParseAttributes()
+   在 System.Xml.XmlTextReaderImpl.ParseElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 collect.CollectThread.downloadPage(sinaaccounts account) 位置 f:\GitHub\sweep\collect\CollectThread.cs:行号 125
+2014-04-22 22:00:47,822 INFO collect.CollectThread - success 166
+2014-04-22 22:00:52,056 INFO collect.CollectThread - success 167
+2014-04-22 22:00:55,263 INFO collect.CollectThread - success 168
+2014-04-22 22:00:55,954 INFO collect.CollectThread - success 169
+2014-04-22 22:00:57,070 INFO collect.CollectThread - success 170
+2014-04-22 22:00:58,254 INFO collect.CollectThread - success 171
+2014-04-22 22:01:00,242 ERROR collect.CollectThread - time out 172;collect user error uid：1769747100
+2014-04-22 22:01:01,609 INFO collect.CollectThread - success 173
+2014-04-22 22:01:02,564 INFO collect.CollectThread - success 174
+2014-04-22 22:01:05,619 INFO collect.CollectThread - success 175
+2014-04-22 22:01:06,621 INFO collect.CollectThread - success 176
+2014-04-22 22:01:10,757 INFO collect.CollectThread - success 177
+2014-04-22 22:01:13,077 INFO collect.CollectThread - success 178
+2014-04-22 22:01:13,819 INFO collect.CollectThread - success 179
+2014-04-22 22:01:16,579 ERROR collect.CollectThread - time out 180;collect user error uid：1135630881
+2014-04-22 22:01:19,833 INFO collect.CollectThread - success 181
+2014-04-22 22:01:21,495 INFO collect.CollectThread - success 182
+2014-04-22 22:01:23,088 INFO collect.CollectThread - success 183
+2014-04-22 22:01:26,264 ERROR collect.CollectThread - time out 184;collect user error uid：1889091874
+2014-04-22 22:01:28,443 INFO collect.CollectThread - success 185
+2014-04-22 22:01:31,274 INFO collect.CollectThread - success 186
+2014-04-22 22:01:32,523 INFO collect.CollectThread - success 187
+2014-04-22 22:01:33,442 INFO collect.CollectThread - success 188
+2014-04-22 22:01:38,598 ERROR collect.CollectThread - time out 189;collect user error uid：1226513092
+2014-04-22 22:01:42,966 INFO collect.CollectThread - success 190
+2014-04-22 22:01:45,638 ERROR collect.CollectThread - time out 191;collect user error uid：3151461527
+2014-04-22 22:01:46,934 INFO collect.CollectThread - success 192
+2014-04-22 22:01:48,319 INFO collect.CollectThread - success 193
+2014-04-22 22:01:50,138 INFO collect.CollectThread - success 194
+2014-04-22 22:01:52,661 INFO collect.CollectThread - success 195
+2014-04-22 22:01:58,802 ERROR collect.CollectThread - time out 196;collect user error uid：3198874975
+2014-04-22 22:02:00,944 ERROR collect.CollectThread - time out 197;collect user error uid：2654329670
+2014-04-22 22:02:01,559 INFO collect.CollectThread - success 198
+2014-04-22 22:02:02,836 INFO collect.CollectThread - success 199
+2014-04-22 22:02:06,731 INFO collect.CollectThread - success 200
+2014-04-22 22:02:11,422 ERROR collect.CollectThread - time out 201;collect user error uid：2143393321
+2014-04-22 22:02:13,290 ERROR collect.CollectThread - time out 202;collect user error uid：1696934507
+2014-04-22 22:02:14,362 INFO collect.CollectThread - success 203
+2014-04-22 22:02:20,449 INFO collect.CollectThread - success 204
+2014-04-22 22:02:21,415 INFO collect.CollectThread - success 205
+2014-04-22 22:02:25,531 ERROR collect.CollectThread - time out 206;collect user error uid：1371731565
+2014-04-22 22:02:28,306 INFO collect.CollectThread - success 207
+2014-04-22 22:02:33,155 INFO collect.CollectThread - success 208
+2014-04-22 22:02:36,282 ERROR collect.CollectThread - time out 209;collect user error uid：2610602637
+2014-04-22 22:02:41,478 INFO collect.CollectThread - success 210
+2014-04-22 22:02:42,457 ERROR collect.CollectThread - fail 211;collect user error uid：1496846495
+2014-04-22 22:02:42,457 ERROR collect.CollectThread - Exception
+System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 20567。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   在 System.Xml.XmlTextReaderImpl.AttributeDuplCheck()
+   在 System.Xml.XmlTextReaderImpl.ParseAttributes()
+   在 System.Xml.XmlTextReaderImpl.ParseElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 collect.CollectThread.downloadPage(sinaaccounts account) 位置 f:\GitHub\sweep\collect\CollectThread.cs:行号 125
+2014-04-22 22:02:43,835 ERROR collect.CollectThread - time out 212;collect user error uid：2419499821
+2014-04-22 22:02:46,028 INFO collect.CollectThread - success 213
+2014-04-22 22:02:47,774 INFO collect.CollectThread - success 214
+2014-04-22 22:02:51,208 INFO collect.CollectThread - success 215
+2014-04-22 22:02:52,179 INFO collect.CollectThread - success 216
+2014-04-22 22:02:52,854 INFO collect.CollectThread - success 217
+2014-04-22 22:02:58,097 INFO collect.CollectThread - success 218
+2014-04-22 22:03:02,248 ERROR collect.CollectThread - time out 219;collect user error uid：1724059371
+2014-04-22 22:03:03,636 INFO collect.CollectThread - success 220
+2014-04-22 22:03:07,100 ERROR collect.CollectThread - time out 221;collect user error uid：1877126631
+2014-04-22 22:03:08,583 INFO collect.CollectThread - success 222
+2014-04-22 22:03:13,260 INFO collect.CollectThread - success 223
+2014-04-22 22:03:16,267 INFO collect.CollectThread - success 224
+2014-04-22 22:03:23,769 ERROR collect.CollectThread - time out 225;collect user error uid：1629137445
+2014-04-22 22:03:24,764 INFO collect.CollectThread - success 226
+2014-04-22 22:03:26,632 INFO collect.CollectThread - success 227
+2014-04-22 22:03:29,218 INFO collect.CollectThread - success 228
+2014-04-22 22:03:33,219 ERROR collect.CollectThread - time out 229;collect user error uid：1949305794
+2014-04-22 22:03:33,879 INFO collect.CollectThread - success 230
+2014-04-22 22:03:34,876 INFO collect.CollectThread - success 231
+2014-04-22 22:03:36,596 INFO collect.CollectThread - success 232
+2014-04-22 22:03:38,513 INFO collect.CollectThread - success 233
+2014-04-22 22:03:45,078 INFO collect.CollectThread - success 234
+2014-04-22 22:03:46,069 INFO collect.CollectThread - success 235
+2014-04-22 22:03:48,741 INFO collect.CollectThread - success 236
+2014-04-22 22:03:53,437 INFO collect.CollectThread - success 237
+2014-04-22 22:03:55,434 ERROR collect.CollectThread - time out 238;collect user error uid：2643195513
+2014-04-22 22:03:58,909 INFO collect.CollectThread - success 239
+2014-04-22 22:04:00,093 INFO collect.CollectThread - success 240
+2014-04-22 22:04:01,384 INFO collect.CollectThread - success 241
+2014-04-22 22:04:03,006 INFO collect.CollectThread - success 242
+2014-04-22 22:04:03,636 INFO collect.CollectThread - success 243
+2014-04-22 22:04:04,895 INFO collect.CollectThread - success 244
+2014-04-22 22:04:09,685 ERROR collect.CollectThread - time out 245;collect user error uid：1375534935
+2014-04-22 22:04:18,971 INFO collect.CollectThread - success 246
+2014-04-22 22:04:26,625 INFO collect.CollectThread - success 247
+2014-04-22 22:04:27,471 INFO collect.CollectThread - success 248
+2014-04-22 22:04:34,435 INFO collect.CollectThread - success 249
+2014-04-22 22:04:38,698 ERROR collect.CollectThread - time out 250;collect user error uid：1767998330
+2014-04-22 22:04:39,251 INFO collect.CollectThread - success 251
+2014-04-22 22:04:40,866 INFO collect.CollectThread - success 252
+2014-04-22 22:04:41,729 INFO collect.CollectThread - success 253
+2014-04-22 22:04:42,786 INFO collect.CollectThread - success 254
+2014-04-22 22:04:44,077 INFO collect.CollectThread - success 255
+2014-04-22 22:04:44,526 INFO collect.CollectThread - success 256
+2014-04-22 22:04:45,430 INFO collect.CollectThread - success 257
+2014-04-22 22:04:46,917 INFO collect.CollectThread - success 258
+2014-04-22 22:04:47,874 INFO collect.CollectThread - success 259
+2014-04-22 22:04:50,677 ERROR collect.CollectThread - time out 260;collect user error uid：1693909073
+2014-04-22 22:04:51,337 INFO collect.CollectThread - success 261
+2014-04-22 22:04:54,537 ERROR collect.CollectThread - time out 262;collect user error uid：2182198150
+2014-04-22 22:04:57,710 INFO collect.CollectThread - success 263
+2014-04-22 22:04:58,435 INFO collect.CollectThread - success 264
+2014-04-22 22:04:59,451 INFO collect.CollectThread - success 265
+2014-04-22 22:05:00,780 INFO collect.CollectThread - success 266
+2014-04-22 22:05:08,761 ERROR collect.CollectThread - time out 267;collect user error uid：1822836700
+2014-04-22 22:05:09,777 INFO collect.CollectThread - success 268
+2014-04-22 22:05:16,247 INFO collect.CollectThread - success 269
+2014-04-22 22:05:22,986 INFO collect.CollectThread - success 270
+2014-04-22 22:05:23,696 INFO collect.CollectThread - success 271
+2014-04-22 22:05:30,158 ERROR collect.CollectThread - time out 272;collect user error uid：1976039421
+2014-04-22 22:05:41,597 ERROR collect.CollectThread - time out 273;collect user error uid：1224685661
+2014-04-22 22:05:46,264 ERROR collect.CollectThread - time out 274;collect user error uid：1295560007
+2014-04-22 22:05:49,979 INFO collect.CollectThread - success 275
+2014-04-22 22:05:51,624 INFO collect.CollectThread - success 276
+2014-04-22 22:05:53,157 INFO collect.CollectThread - success 277
+2014-04-22 22:06:03,067 ERROR collect.CollectThread - time out 278;collect user error uid：1655843694
+2014-04-22 22:06:14,959 INFO collect.CollectThread - success 279
+2014-04-22 22:06:17,648 INFO collect.CollectThread - success 280
+2014-04-22 22:06:26,339 ERROR collect.CollectThread - time out 281;collect user error uid：1316949123
+2014-04-22 22:06:32,255 INFO collect.CollectThread - success 282
+2014-04-22 22:06:33,421 INFO collect.CollectThread - success 283
+2014-04-22 22:06:36,560 ERROR collect.CollectThread - time out 284;collect user error uid：1826792401
+2014-04-22 22:06:37,815 INFO collect.CollectThread - success 285
+2014-04-22 22:06:43,455 ERROR collect.CollectThread - time out 286;collect user error uid：1923811215
+2014-04-22 22:06:44,090 INFO collect.CollectThread - success 287
+2014-04-22 22:06:49,284 INFO collect.CollectThread - success 288
+2014-04-22 22:06:50,359 ERROR collect.CollectThread - fail 289;collect user error uid：2202692513
+2014-04-22 22:06:50,359 ERROR collect.CollectThread - Exception
+System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 30513。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   在 System.Xml.XmlTextReaderImpl.AttributeDuplCheck()
+   在 System.Xml.XmlTextReaderImpl.ParseAttributes()
+   在 System.Xml.XmlTextReaderImpl.ParseElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 collect.CollectThread.downloadPage(sinaaccounts account) 位置 f:\GitHub\sweep\collect\CollectThread.cs:行号 125
+2014-04-22 22:06:51,053 INFO collect.CollectThread - success 290
+2014-04-22 22:06:54,339 INFO collect.CollectThread - success 291
+2014-04-22 22:06:54,881 INFO collect.CollectThread - success 292
+2014-04-22 22:06:55,893 INFO collect.CollectThread - success 293
+2014-04-22 22:07:01,102 ERROR collect.CollectThread - time out 294;collect user error uid：1258582703
+2014-04-22 22:07:04,505 ERROR collect.CollectThread - time out 295;collect user error uid：1739928273
+2014-04-22 22:07:05,320 INFO collect.CollectThread - success 296
+2014-04-22 22:07:08,570 INFO collect.CollectThread - success 297
+2014-04-22 22:07:13,022 INFO collect.CollectThread - success 298
+2014-04-22 22:07:17,946 ERROR collect.CollectThread - time out 299;collect user error uid：1211598953
+2014-04-22 22:07:19,009 INFO collect.CollectThread - success 300
+2014-04-22 22:07:21,788 INFO collect.CollectThread - success 301
+2014-04-22 22:07:25,752 ERROR collect.CollectThread - time out 302;collect user error uid：1741492385
+2014-04-22 22:07:29,375 ERROR collect.CollectThread - time out 303;collect user error uid：1973319807
+2014-04-22 22:07:30,180 INFO collect.CollectThread - success 304
+2014-04-22 22:07:38,771 ERROR collect.CollectThread - time out 305;collect user error uid：1299532580
+2014-04-22 22:07:40,002 INFO collect.CollectThread - success 306
+2014-04-22 22:07:46,913 ERROR collect.CollectThread - time out 307;collect user error uid：1991607711
+2014-04-22 22:07:51,183 INFO collect.CollectThread - success 308
+2014-04-22 22:07:57,418 ERROR collect.CollectThread - time out 309;collect user error uid：1898563985
+2014-04-22 22:08:01,224 INFO collect.CollectThread - success 310
+2014-04-22 22:08:02,144 INFO collect.CollectThread - success 311
+2014-04-22 22:08:03,474 INFO collect.CollectThread - success 312
+2014-04-22 22:08:04,208 INFO collect.CollectThread - success 313
+2014-04-22 22:08:05,107 INFO collect.CollectThread - success 314
+2014-04-22 22:08:05,940 INFO collect.CollectThread - success 315
+2014-04-22 22:08:13,805 ERROR collect.CollectThread - time out 316;collect user error uid：1270468784
+2014-04-22 22:08:13,805 INFO collect.CollectThread - finish get list
+2014-04-22 22:08:18,884 INFO collect.CollectThread - 920.9270932秒

@@ -1,0 +1,210 @@
+2014-04-18 14:55:43,353 INFO collect.CollectList - 2003423885
+2014-04-18 14:55:59,777 ERROR collect.CollectThread - collect
+System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 System.Xml.XmlDownloadManager.GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.OpenAndPush(Uri uri)
+   在 System.Xml.XmlTextReaderImpl.PushExternalEntityOrSubset(String publicId, String systemId, Uri baseUri, String entityName)
+   在 System.Xml.XmlTextReaderImpl.DtdParserProxy_PushExternalSubset(String systemId, String publicId)
+   在 System.Xml.DtdParser.ParseExternalSubset()
+   在 System.Xml.DtdParser.Parse(Boolean saveInternalSubset)
+   在 System.Xml.DtdParser.System.Xml.IDtdParser.ParseInternalDtd(IDtdParserAdapter adapter, Boolean saveInternalSubset)
+   在 System.Xml.XmlTextReaderImpl.ParseDtd()
+   在 System.Xml.XmlTextReaderImpl.ParseDoctypeDecl()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 collect.CollectThread.downloadPage(sinaaccounts account) 位置 f:\GitHub\sweep\collect\CollectThread.cs:行号 55
+2014-04-18 14:56:23,346 INFO collect.CollectList - 2003423885
+2014-04-18 14:57:46,397 ERROR collect.CollectThread - collect user error uid：1775891047
+2014-04-18 14:58:18,138 INFO collect.CollectList - 2003423885
+2014-04-18 14:59:09,983 ERROR collect.CollectThread - collect user error uid：1775891047
+2014-04-18 14:59:26,446 ERROR collect.CollectThread - collect user error uid：3863328363
+2014-04-18 14:59:54,934 INFO collect.CollectList - 2003423885
+2014-04-18 15:00:09,999 ERROR collect.CollectThread - collect user error uid：5041926495
+2014-04-18 15:00:11,536 ERROR collect.CollectThread - collect user error uid：1775891047
+2014-04-18 15:00:27,200 ERROR collect.CollectThread - collect user error uid：3863328363
+2014-04-18 15:00:27,460 ERROR collect.CollectThread - collect user error uid：5041926495
+2014-04-18 15:00:28,723 ERROR collect.CollectThread - collect user error uid：5091184196
+2014-04-18 15:00:43,181 ERROR collect.CollectThread - collect user error uid：5091184196
+2014-04-18 15:00:47,441 ERROR collect.CollectThread - collect user error uid：5012141025
+2014-04-18 15:00:58,877 ERROR collect.CollectThread - collect user error uid：5012141025
+2014-04-18 15:01:03,164 ERROR collect.CollectThread - collect user error uid：5066277825
+2014-04-18 15:01:14,585 ERROR collect.CollectThread - collect user error uid：5066277825
+2014-04-18 15:01:18,891 ERROR collect.CollectThread - collect user error uid：5034965207
+2014-04-18 15:01:30,278 ERROR collect.CollectThread - collect user error uid：5034965207
+2014-04-18 15:01:34,671 ERROR collect.CollectThread - collect user error uid：5067118893
+2014-04-18 15:01:46,003 ERROR collect.CollectThread - collect user error uid：5067118893
+2014-04-18 15:01:50,399 ERROR collect.CollectThread - collect user error uid：5078873846
+2014-04-18 15:02:01,995 ERROR collect.CollectThread - collect user error uid：5078873846
+2014-04-18 15:02:06,118 ERROR collect.CollectThread - collect user error uid：3936218254
+2014-04-18 15:02:17,716 ERROR collect.CollectThread - collect user error uid：3936218254
+2014-04-18 15:02:21,855 ERROR collect.CollectThread - collect user error uid：3251426084
+2014-04-18 15:02:33,374 ERROR collect.CollectThread - collect user error uid：3251426084
+2014-04-18 15:02:37,587 ERROR collect.CollectThread - collect user error uid：3916750356
+2014-04-18 15:02:49,202 ERROR collect.CollectThread - collect user error uid：3916750356
+2014-04-18 15:02:53,308 ERROR collect.CollectThread - collect user error uid：2947682747
+2014-04-18 15:03:04,901 ERROR collect.CollectThread - collect user error uid：2947682747
+2014-04-18 15:03:08,998 ERROR collect.CollectThread - collect user error uid：2787536687
+2014-04-18 15:03:20,603 ERROR collect.CollectThread - collect user error uid：2787536687
+2014-04-18 15:03:24,780 ERROR collect.CollectThread - collect user error uid：2923119947
+2014-04-18 15:03:36,361 ERROR collect.CollectThread - collect user error uid：2923119947
+2014-04-18 15:03:40,634 ERROR collect.CollectThread - collect user error uid：2504809355
+2014-04-18 15:03:52,183 ERROR collect.CollectThread - collect user error uid：2504809355
+2014-04-18 15:03:56,393 ERROR collect.CollectThread - collect user error uid：1346938125
+2014-04-18 15:04:07,875 ERROR collect.CollectThread - collect user error uid：1346938125
+2014-04-18 15:04:12,115 ERROR collect.CollectThread - collect user error uid：2884083091
+2014-04-18 15:04:23,673 ERROR collect.CollectThread - collect user error uid：2884083091
+2014-04-18 15:04:28,661 ERROR collect.CollectThread - collect user error uid：2303910434
+2014-04-18 15:04:39,924 ERROR collect.CollectThread - collect user error uid：2303910434
+2014-04-18 15:04:44,854 ERROR collect.CollectThread - collect user error uid：3705797132
+2014-04-18 15:04:55,677 ERROR collect.CollectThread - collect user error uid：3705797132
+2014-04-18 15:05:00,718 ERROR collect.CollectThread - collect user error uid：3022421611
+2014-04-18 15:05:11,447 ERROR collect.CollectThread - collect user error uid：3022421611
+2014-04-18 15:05:16,609 ERROR collect.CollectThread - collect user error uid：1954105000
+2014-04-18 15:05:27,289 ERROR collect.CollectThread - collect user error uid：1954105000
+2014-04-18 15:05:27,532 ERROR collect.CollectThread - collect user error uid：3456187782
+2014-04-18 15:05:32,292 ERROR collect.CollectThread - collect user error uid：3456187782
+2014-04-18 15:05:43,350 ERROR collect.CollectThread - collect user error uid：1183849860
+2014-04-18 15:05:48,296 ERROR collect.CollectThread - collect user error uid：1183849860
+2014-04-18 15:05:59,149 ERROR collect.CollectThread - collect user error uid：2708676512
+2014-04-18 15:06:04,112 ERROR collect.CollectThread - collect user error uid：2708676512
+2014-04-18 15:06:14,952 ERROR collect.CollectThread - collect user error uid：1894530632
+2014-04-18 15:06:19,956 ERROR collect.CollectThread - collect user error uid：1894530632
+2014-04-18 15:06:20,228 ERROR collect.CollectThread - collect user error uid：2686328124
+2014-04-18 15:06:30,857 ERROR collect.CollectThread - collect user error uid：2686328124
+2014-04-18 15:06:36,048 ERROR collect.CollectThread - collect user error uid：2011844663
+2014-04-18 15:06:46,754 ERROR collect.CollectThread - collect user error uid：2011844663
+2014-04-18 15:06:54,947 ERROR collect.CollectThread - collect user error uid：1994581947
+2014-04-18 15:07:03,639 ERROR collect.CollectThread - collect user error uid：1994581947
+2014-04-18 15:07:10,782 ERROR collect.CollectThread - collect user error uid：3231885442
+2014-04-18 15:07:11,027 ERROR collect.CollectThread - collect user error uid：2698223194
+2014-04-18 15:07:19,521 ERROR collect.CollectThread - collect user error uid：3231885442
+2014-04-18 15:07:26,702 ERROR collect.CollectThread - collect user error uid：1802635523
+2014-04-18 15:07:35,339 ERROR collect.CollectThread - collect user error uid：2698223194
+2014-04-18 15:07:42,365 ERROR collect.CollectThread - collect user error uid：1927995581
+2014-04-18 15:07:51,120 ERROR collect.CollectThread - collect user error uid：1802635523
+2014-04-18 15:07:58,088 ERROR collect.CollectThread - collect user error uid：3462883450
+2014-04-18 15:08:06,848 ERROR collect.CollectThread - collect user error uid：1927995581
+2014-04-18 15:08:13,877 ERROR collect.CollectThread - collect user error uid：2670170344
+2014-04-18 15:08:22,565 ERROR collect.CollectThread - collect user error uid：3462883450
+2014-04-18 15:08:29,613 ERROR collect.CollectThread - collect user error uid：1098856800
+2014-04-18 15:08:38,289 ERROR collect.CollectThread - collect user error uid：2670170344
+2014-04-18 15:08:45,279 ERROR collect.CollectThread - collect user error uid：1893826710
+2014-04-18 15:08:53,992 ERROR collect.CollectThread - collect user error uid：1098856800
+2014-04-18 15:09:01,013 ERROR collect.CollectThread - collect user error uid：1955181485
+2014-04-18 15:09:01,360 ERROR collect.CollectThread - collect user error uid：2520164572
+2014-04-18 15:09:09,730 ERROR collect.CollectThread - collect user error uid：1893826710
+2014-04-18 15:09:17,103 ERROR collect.CollectThread - collect user error uid：2171799232
+2014-04-18 15:09:26,980 ERROR collect.CollectThread - collect user error uid：1955181485
+2014-04-18 15:09:32,903 ERROR collect.CollectThread - collect user error uid：1465474184
+2014-04-18 15:09:42,762 ERROR collect.CollectThread - collect user error uid：2520164572
+2014-04-18 15:09:48,682 ERROR collect.CollectThread - collect user error uid：1389417923
+2014-04-18 15:09:58,435 ERROR collect.CollectThread - collect user error uid：2171799232
+2014-04-18 15:10:04,553 ERROR collect.CollectThread - collect user error uid：1221680133
+2014-04-18 15:10:14,152 ERROR collect.CollectThread - collect user error uid：1465474184
+2014-04-18 15:10:20,206 ERROR collect.CollectThread - collect user error uid：1793407481
+2014-04-18 15:10:29,929 ERROR collect.CollectThread - collect user error uid：1389417923
+2014-04-18 15:10:35,951 ERROR collect.CollectThread - collect user error uid：1594267923
+2014-04-18 15:10:45,728 ERROR collect.CollectThread - collect user error uid：1221680133
+2014-04-18 15:10:51,682 ERROR collect.CollectThread - collect user error uid：2068614947
+2014-04-18 15:11:01,460 ERROR collect.CollectThread - collect user error uid：1793407481
+2014-04-18 15:11:07,416 ERROR collect.CollectThread - collect user error uid：1803486837
+2014-04-18 15:11:17,188 ERROR collect.CollectThread - collect user error uid：1594267923
+2014-04-18 15:11:23,148 ERROR collect.CollectThread - collect user error uid：2023573897
+2014-04-18 15:11:32,947 ERROR collect.CollectThread - collect user error uid：2068614947
+2014-04-18 15:11:38,892 ERROR collect.CollectThread - collect user error uid：1792882974
+2014-04-18 15:11:48,669 ERROR collect.CollectThread - collect user error uid：1803486837
+2014-04-18 15:11:55,955 ERROR collect.CollectThread - collect user error uid：2506398112
+2014-04-18 15:12:04,403 ERROR collect.CollectThread - collect user error uid：2023573897
+2014-04-18 15:12:11,680 ERROR collect.CollectThread - collect user error uid：1783179005
+2014-04-18 15:12:12,100 ERROR collect.CollectThread - collect user error uid：2024319132
+2014-04-18 15:12:20,252 ERROR collect.CollectThread - collect user error uid：1792882974
+2014-04-18 15:12:28,279 ERROR collect.CollectThread - collect user error uid：1832507023
+2014-04-18 15:12:36,663 ERROR collect.CollectThread - collect user error uid：2506398112
+2014-04-18 15:12:44,011 ERROR collect.CollectThread - collect user error uid：1118731822
+2014-04-18 15:12:52,332 ERROR collect.CollectThread - collect user error uid：1783179005
+2014-04-18 15:12:59,743 ERROR collect.CollectThread - collect user error uid：1086206003
+2014-04-18 15:13:09,277 ERROR collect.CollectThread - collect user error uid：2024319132
+2014-04-18 15:13:15,466 ERROR collect.CollectThread - collect user error uid：1135630881
+2014-04-18 15:13:25,451 ERROR collect.CollectThread - collect user error uid：1832507023
+2014-04-18 15:13:25,928 ERROR collect.CollectThread - collect user error uid：1118731822
+2014-04-18 15:13:26,217 ERROR collect.CollectThread - collect user error uid：1086206003
+2014-04-18 15:13:31,134 ERROR collect.CollectThread - collect user error uid：3187516263
+2014-04-18 15:13:42,008 ERROR collect.CollectThread - collect user error uid：1135630881
+2014-04-18 15:13:46,796 ERROR collect.CollectThread - collect user error uid：2158846910
+2014-04-18 15:13:57,709 ERROR collect.CollectThread - collect user error uid：3187516263
+2014-04-18 15:14:02,517 ERROR collect.CollectThread - collect user error uid：1284563264
+2014-04-18 15:14:13,374 ERROR collect.CollectThread - collect user error uid：2158846910
+2014-04-18 15:14:18,198 ERROR collect.CollectThread - collect user error uid：1949305794
+2014-04-18 15:14:29,104 ERROR collect.CollectThread - collect user error uid：1284563264
+2014-04-18 15:14:33,914 ERROR collect.CollectThread - collect user error uid：2719462622
+2014-04-18 15:14:44,759 ERROR collect.CollectThread - collect user error uid：1949305794
+2014-04-18 15:14:49,637 ERROR collect.CollectThread - collect user error uid：1626454484
+2014-04-18 15:15:00,423 ERROR collect.CollectThread - collect user error uid：2719462622
+2014-04-18 15:15:05,303 ERROR collect.CollectThread - collect user error uid：1629137445
+2014-04-18 15:15:16,164 ERROR collect.CollectThread - collect user error uid：1626454484
+2014-04-18 15:15:21,032 ERROR collect.CollectThread - collect user error uid：2030954843
+2014-04-18 15:15:21,306 ERROR collect.CollectThread - collect user error uid：2047869935
+2014-04-18 15:15:31,987 ERROR collect.CollectThread - collect user error uid：1629137445
+2014-04-18 15:15:36,967 ERROR collect.CollectThread - collect user error uid：2744231453
+2014-04-18 15:15:47,664 ERROR collect.CollectThread - collect user error uid：2030954843
+2014-04-18 15:15:48,184 ERROR collect.CollectThread - collect user error uid：2047869935
+2014-04-18 15:15:52,719 ERROR collect.CollectThread - collect user error uid：2535009800
+2014-04-18 15:16:03,918 ERROR collect.CollectThread - collect user error uid：2744231453
+2014-04-18 15:16:08,457 ERROR collect.CollectThread - collect user error uid：1767998330
+2014-04-18 15:16:19,652 ERROR collect.CollectThread - collect user error uid：2535009800
+2014-04-18 15:16:24,210 ERROR collect.CollectThread - collect user error uid：2076653461
+2014-04-18 15:16:35,384 ERROR collect.CollectThread - collect user error uid：1767998330
+2014-04-18 15:16:39,963 ERROR collect.CollectThread - collect user error uid：2323550100
+2014-04-18 15:16:51,407 ERROR collect.CollectThread - collect user error uid：2076653461
+2014-04-18 15:16:55,740 ERROR collect.CollectThread - collect user error uid：1318081181
+2014-04-18 15:17:07,194 ERROR collect.CollectThread - collect user error uid：2323550100
+2014-04-18 15:17:11,495 ERROR collect.CollectThread - collect user error uid：2611068461
+2014-04-18 15:17:12,225 ERROR collect.CollectThread - collect user error uid：1376385560
+2014-04-18 15:17:22,954 ERROR collect.CollectThread - collect user error uid：1318081181
+2014-04-18 15:17:27,937 ERROR collect.CollectThread - collect user error uid：2501326221
+2014-04-18 15:17:38,663 ERROR collect.CollectThread - collect user error uid：2611068461
+2014-04-18 15:17:44,395 ERROR collect.CollectThread - collect user error uid：1724059371
+2014-04-18 15:17:45,071 ERROR collect.CollectThread - collect user error uid：1144725912
+2014-04-18 15:17:54,359 ERROR collect.CollectThread - collect user error uid：1376385560
+2014-04-18 15:18:00,793 ERROR collect.CollectThread - collect user error uid：2182198150
+2014-04-18 15:18:10,094 ERROR collect.CollectThread - collect user error uid：2501326221
+2014-04-18 15:18:16,511 ERROR collect.CollectThread - collect user error uid：1977565862
+2014-04-18 15:18:25,754 ERROR collect.CollectThread - collect user error uid：1724059371
+2014-04-18 15:18:32,180 ERROR collect.CollectThread - collect user error uid：1956169973
+2014-04-18 15:18:41,585 ERROR collect.CollectThread - collect user error uid：1144725912
+2014-04-18 15:18:48,001 ERROR collect.CollectThread - collect user error uid：1976039421
+2014-04-18 15:18:57,504 ERROR collect.CollectThread - collect user error uid：2182198150
+2014-04-18 15:19:03,976 ERROR collect.CollectThread - collect user error uid：1906745523
+2014-04-18 15:19:04,363 ERROR collect.CollectThread - collect user error uid：1098296811
+2014-04-18 15:19:04,730 ERROR collect.CollectThread - collect user error uid：2134130464
+2014-04-18 15:19:13,293 ERROR collect.CollectThread - collect user error uid：1977565862
+2014-04-18 15:19:23,485 ERROR collect.CollectThread - collect user error uid：1877126631
+2014-04-18 15:19:29,022 ERROR collect.CollectThread - collect user error uid：1956169973
+2014-04-18 15:19:39,208 ERROR collect.CollectThread - collect user error uid：2005285644
+2014-04-18 15:19:39,882 ERROR collect.CollectThread - collect user error uid：1991607711
+2014-04-18 15:19:40,672 ERROR collect.CollectThread - collect user error uid：1988089537
+2014-04-18 15:19:44,738 ERROR collect.CollectThread - collect user error uid：1976039421
+2014-04-18 15:19:56,579 ERROR collect.CollectThread - collect user error uid：1645171780
+2014-04-18 15:20:00,555 ERROR collect.CollectThread - collect user error uid：1906745523
+2014-04-18 15:20:12,608 ERROR collect.CollectThread - collect user error uid：1564334263
+2014-04-18 15:20:16,243 ERROR collect.CollectThread - collect user error uid：1098296811
+2014-04-18 16:17:26,474 INFO collect.CollectList - 2003423885
+2014-04-18 16:17:53,696 INFO collect.CollectList - 2003423885
+2014-04-18 16:19:40,046 ERROR collect.CollectThread - collect user error uid：1775891047
+2014-04-18 16:26:58,239 INFO collect.CollectList - 2003423885
+2014-04-18 16:27:15,695 ERROR collect.CollectThread - collect user error uid：1775891047
+2014-04-18 16:31:32,930 INFO collect.CollectList - 2003423885
+2014-04-18 16:31:48,214 ERROR collect.CollectThread - collect user error uid：3863328363
+2014-04-18 16:31:49,772 ERROR collect.CollectThread - collect user error uid：1775891047
+2014-04-18 16:32:04,155 ERROR collect.CollectThread - collect user error uid：5041926495
+2014-04-18 16:32:04,485 ERROR collect.CollectThread - collect user error uid：5091184196
+2014-04-18 16:32:09,841 ERROR collect.CollectThread - collect user error uid：3863328363
+2014-04-18 16:32:20,212 ERROR collect.CollectThread - collect user error uid：5012141025
+2014-04-18 16:32:28,624 ERROR collect.CollectThread - collect user error uid：5041926495
+2014-04-18 16:32:35,956 ERROR collect.CollectThread - collect user error uid：5066277825
+2014-04-18 16:32:44,285 ERROR collect.CollectThread - collect user error uid：5091184196
+2014-04-18 16:32:51,614 ERROR collect.CollectThread - collect user error uid：5034965207

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="sweepModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="sweepModelStoreContainer">
+          <EntitySet Name="posts" EntityType="sweepModel.Store.posts" store:Type="Tables" Schema="sweep" />
+          <EntitySet Name="sinaaccounts" EntityType="sweepModel.Store.sinaaccounts" store:Type="Tables" Schema="sweep" />
+          <AssociationSet Name="id" Association="sweepModel.Store.id">
+            <End Role="sinaaccounts" EntitySet="sinaaccounts" />
+            <End Role="posts" EntitySet="posts" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="posts">
+          <Key>
+            <PropertyRef Name="pid" />
+          </Key>
+          <Property Name="pid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="uid" Type="int" Nullable="false" />
+          <Property Name="text" Type="varchar" MaxLength="300" />
+          <Property Name="ruid" Type="varchar" MaxLength="20" />
+          <Property Name="reason" Type="varchar" MaxLength="300" />
+        </EntityType>
+        <EntityType Name="sinaaccounts">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="uid" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="isWaste" Type="int" Nullable="false" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="followers_count" Type="int" Nullable="false" />
+          <Property Name="friends_count" Type="int" Nullable="false" />
+          <Property Name="statuses_count" Type="int" Nullable="false" />
+          <Property Name="favourites_count" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="id">
+          <End Role="sinaaccounts" Type="sweepModel.Store.sinaaccounts" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="posts" Type="sweepModel.Store.posts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sinaaccounts">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="posts">
+              <PropertyRef Name="uid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="sweepModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="sweepEntities1" p1:LazyLoadingEnabled="true" >
+          <EntitySet Name="posts" EntityType="sweepModel.posts" />
+          <EntitySet Name="sinaaccounts" EntityType="sweepModel.sinaaccounts" />
+          <AssociationSet Name="id" Association="sweepModel.id">
+            <End Role="sinaaccounts" EntitySet="sinaaccounts" />
+            <End Role="posts" EntitySet="posts" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="posts">
+          <Key>
+            <PropertyRef Name="pid" />
+          </Key>
+          <Property Type="Int32" Name="pid" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="uid" Nullable="false" />
+          <Property Type="String" Name="text" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="ruid" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="reason" MaxLength="300" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="sinaaccounts" Relationship="sweepModel.id" FromRole="posts" ToRole="sinaaccounts" />
+        </EntityType>
+        <EntityType Name="sinaaccounts">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="uid" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="isWaste" Nullable="false" />
+          <Property Type="String" Name="name" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="followers_count" Nullable="false" />
+          <Property Type="Int32" Name="friends_count" Nullable="false" />
+          <Property Type="Int32" Name="statuses_count" Nullable="false" />
+          <Property Type="Int32" Name="favourites_count" Nullable="false" />
+          <NavigationProperty Name="posts" Relationship="sweepModel.id" FromRole="sinaaccounts" ToRole="posts" />
+        </EntityType>
+        <Association Name="id">
+          <End Type="sweepModel.sinaaccounts" Role="sinaaccounts" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="sweepModel.posts" Role="posts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="sinaaccounts">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="posts">
+              <PropertyRef Name="uid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="sweepModelStoreContainer" CdmEntityContainer="sweepEntities1" >
+          <EntitySetMapping Name="posts">
+            <EntityTypeMapping TypeName="sweepModel.posts">
+              <MappingFragment StoreEntitySet="posts">
+                <ScalarProperty Name="reason" ColumnName="reason" />
+                <ScalarProperty Name="ruid" ColumnName="ruid" />
+                <ScalarProperty Name="text" ColumnName="text" />
+                <ScalarProperty Name="uid" ColumnName="uid" />
+                <ScalarProperty Name="pid" ColumnName="pid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sinaaccounts">
+            <EntityTypeMapping TypeName="sweepModel.sinaaccounts">
+              <MappingFragment StoreEntitySet="sinaaccounts">
+                <ScalarProperty Name="favourites_count" ColumnName="favourites_count" />
+                <ScalarProperty Name="statuses_count" ColumnName="statuses_count" />
+                <ScalarProperty Name="friends_count" ColumnName="friends_count" />
+                <ScalarProperty Name="followers_count" ColumnName="followers_count" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="isWaste" ColumnName="isWaste" />
+                <ScalarProperty Name="uid" ColumnName="uid" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

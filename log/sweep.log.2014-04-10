@@ -1,0 +1,5 @@
+2014-04-10 01:12:06,124 ERROR sweep.Controllers.HomeController - goAfterAuth
+NetDimension.Weibo.WeiboException: 未审核的应用使用人数超过限制
+   在 NetDimension.Weibo.OAuth.Request(String url, RequestMethod method, WeiboParameter[] parameters)
+   在 NetDimension.Weibo.Interface.Entity.AccountInterface.GetUID()
+   在 sweep.Controllers.HomeController.goAfterOAuth(String accessToken, OAuth o) 位置 f:\GitHub\sweep\sweep\Controllers\HomeController.cs:行号 48
