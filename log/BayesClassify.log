@@ -1,0 +1,28 @@
+[Header] 2014-05-05 23:06:07,105 [10] INFO  BayesClassify.Program [(null)] - learn start
+[Header] 2014-05-05 23:15:58,650 [10] INFO  BayesClassify.Program [(null)] - learn start
+[Header] 2014-05-05 23:17:57,859 [9] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-05 23:19:22,459 [9] ERROR BayesClassify.Program [(null)] - Main
+System.NotSupportedException: 不支持给定路径的格式。
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 BayesClassify.Program.Main(String[] args) 位置 f:\GitHub\sweep\BayesClassify\Program.cs:行号 44
+2014-05-05 23:19:22,468 [9] INFO  BayesClassify.Program [(null)] - 84.5523372秒
+2014-05-05 23:19:22,468 [9] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-05 23:23:50,486 [10] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-05 23:24:47,734 [10] ERROR BayesClassify.Program [(null)] - Main
+System.NotSupportedException: 不支持给定路径的格式。
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamWriter..ctor(String path, Boolean append)
+   在 BayesClassify.Program.Main(String[] args) 位置 f:\GitHub\sweep\BayesClassify\Program.cs:行号 44
+2014-05-05 23:24:47,742 [10] INFO  BayesClassify.Program [(null)] - 57.2031088秒
+2014-05-05 23:24:47,742 [10] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-05 23:26:33,520 [10] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-05 23:27:26,033 [10] INFO  BayesClassify.Program [(null)] - 52.4649564秒
+2014-05-05 23:27:26,034 [10] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] 

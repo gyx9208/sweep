@@ -1,0 +1,136 @@
+[Header] 2014-04-30 03:02:22,215 [9] INFO  BayesClassify.Program [(null)] - learn start
+2014-04-30 03:02:26,307 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8siEtJU第3次3.0760512秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:02:29,380 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sX24en第3次3.0695738秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:02:32,446 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sXhXXG第3次3.0660778秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:02:36,786 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sGpZkY第3次3.0690465秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:02:39,854 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8saQn31第3次3.0681395秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:02:42,922 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8si0hi8第3次3.068089秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:02:45,990 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8siEtJU第3次3.0671499秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:02:49,055 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8siU3Nd第3次3.0650443秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:02:52,125 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8siL2nQ第3次3.0680801秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:02:55,193 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8swlebC第3次3.0672295秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:02:58,261 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sluDMy第3次3.0680471秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:03:01,327 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sVNPk1第3次3.0660445秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:03:04,394 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sVNPk1第3次3.0660445秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:03:07,461 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8FrUUw0第3次3.067052秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:03:22,878 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/zTtMLCt第3次3.1251082秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:03:28,198 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sTMKV8第3次3.1951311秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:03:32,595 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8s8pZzH第3次3.1222319秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:03:46,217 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sNk6jt第3次3.0650549秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:03:49,284 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sNk6jt第3次3.0660745秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:03:52,350 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sNk6jt第3次3.0661154秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:03:58,812 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/zTtMLCt第3次3.1162836秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:04:02,039 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sjKn3g第3次3.0664277秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:04:05,106 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sptj6z第3次3.0672944秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:04:08,174 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8spKXsy第3次3.0681549秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:04:11,367 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sCpYlK第3次3.1161647秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:04:14,589 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sHQiz0第3次3.066106秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:04:20,275 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sTMKV8第3次3.1160946秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:04:25,244 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8FBwgvd第3次3.0700493秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:05:30,903 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8sHecl6第3次63.3027071秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:05:33,973 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/zOBWZtz第3次3.0691137秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:05:37,038 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/zO1k1E2第3次3.0650711秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:05:40,106 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8spWLir第3次3.0661497秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:05:43,352 [9] INFO  BayesClassify.Dictionary.DictionaryBuilder [(null)] - http://t.cn/8swjuzJ第3次3.0661108秒
+System.Net.WebException: 操作超时
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 BayesClassify.Dictionary.DictionaryBuilder.saveUrl(String url) 位置 f:\GitHub\sweep\BayesClassify\Dictionary\DictionaryBuilder.cs:行号 85
+2014-04-30 03:05:43,623 [9] INFO  BayesClassify.Program [(null)] - 201.3882868秒
+2014-04-30 03:05:43,624 [9] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] 

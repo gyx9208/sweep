@@ -9,11 +9,13 @@ using System.Text.RegularExpressions;
 using System.IO;
 using System.Xml;
 using System.Xml.Xsl;
+using collect.ManualCollect;
 
 namespace Test
 {
     class Program
     {
+        
         private static CookieContainer cookie = new CookieContainer();
         private static CookieContainer Vcookie = new CookieContainer();
         private static string contentType = "application/x-www-form-urlencoded";
@@ -48,7 +50,7 @@ namespace Test
             return html;
         }
 
-        static void Main(string[] args)
+        static void Mainxx(string[] args)
         {
             #region download html
             string url = @"http://weibo.com/u/1464081494";
@@ -123,5 +125,18 @@ namespace Test
             }
             #endregion
         }
+
+
+        static void MainRP(string[] args)
+        {
+            RepostCollect rp = new RepostCollect();
+            rp.collect("5041926495", 3000);
+        }
+
+        static void Main(string[] args)
+        {
+            var s=System.DateTime.Now.TimeOfDay.ToString();
+        }
+
     }
 }

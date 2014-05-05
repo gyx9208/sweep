@@ -1,0 +1,13 @@
+[Header] 2014-05-04 17:41:21,157 [9] INFO  BayesClassify.Program [(null)] - learn start
+[Header] 2014-05-04 17:41:44,233 [10] INFO  BayesClassify.Program [(null)] - learn start
+[Header] 2014-05-04 17:43:40,297 [9] INFO  BayesClassify.Program [(null)] - learn start
+[Header] 2014-05-04 17:51:52,803 [10] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-04 17:54:34,419 [10] INFO  BayesClassify.Program [(null)] - 161.5698164√Î
+2014-05-04 17:54:34,420 [10] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-04 17:57:39,744 [9] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-04 17:57:50,875 [9] INFO  BayesClassify.Program [(null)] - 11.0813841√Î
+2014-05-04 17:57:50,875 [9] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-04 18:04:17,555 [10] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-04 18:04:28,074 [10] INFO  BayesClassify.Program [(null)] - 10.4619702√Î
+2014-05-04 18:04:28,075 [10] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] 
