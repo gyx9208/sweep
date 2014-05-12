@@ -1,0 +1,4 @@
+[Header] 2014-05-06 12:09:37,483 [10] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-06 12:10:32,035 [10] INFO  BayesClassify.Program [(null)] - 54.5034876√Î
+2014-05-06 12:10:32,037 [10] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-06 12:22:23,616 [9] INFO  BayesClassify.Program [(null)] - learn start

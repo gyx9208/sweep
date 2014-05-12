@@ -1,16 +1,53 @@
 ﻿<!DOCTYPE html>
 <html lang="zh">
     <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>@ViewBag.Title</title>
-        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-        <meta name="viewport" content="width=device-width" />
+    
         @Styles.Render("~/Content/bootstrap/css")
-        @Styles.Render("~/Content/css")
+        <style type="text/css">
+          body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+          }
+        </style>
         @Scripts.Render("~/bundles/modernizr")
+
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
+
     <body>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Sweep", "Index","Home",null,new{@class="navbar-brand"})
+                </div>
+                <div class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                    <ul class="navbar-nav nav">
+                        @RenderSection("navbar",true)
+                    </ul>
+                    <div class="navbar-right navbar-nav nav">
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                </div>
+            </div>
+        </div>
+        @RenderBody()
+    </body>
+
+
+
+   @* <body>
         <div class="site-wrapper">
             <div class="site-wrapper-inner">
                 <div class="cover-container">
@@ -40,5 +77,5 @@
         </div>
         @Scripts.Render("~/bundles/jquery")
         @RenderSection("scripts", required: false)
-    </body>
+    </body>*@
 </html>

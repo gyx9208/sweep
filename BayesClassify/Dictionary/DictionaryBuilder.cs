@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using data;
 using System.Net;
 using System.Text.RegularExpressions;
+using System.IO;
 
 namespace BayesClassify.Dictionary
 {
@@ -29,7 +30,7 @@ namespace BayesClassify.Dictionary
             urls = new List<string>();
             DnsSafeHosts = new List<string>();
             localDictionary = new Dictionary();
-            averageDivider = 3;//read from xml later;
+            averageDivider = 4;//read from xml later;
             learnCount = 0;
         }
 
@@ -193,7 +194,7 @@ namespace BayesClassify.Dictionary
         {
             foreach (Word w in selectedChars)
             {
-                localDictionary.addCount(w.Text, w.Weight);
+                localDictionary.addWeight(w.Text, w.Weight);
             }
         }
 
@@ -258,6 +259,23 @@ namespace BayesClassify.Dictionary
         public List<string> getUrls()
         {
             return urls;
+        }
+
+        public void BuildFromFile(string DicFileAddress)
+        {
+            StreamReader sr = new StreamReader(DicFileAddress);
+            var s=sr.ReadLine();
+            var ss = s.Split(':');
+            averageDivider = double.Parse(ss[1]);
+            sr.ReadLine();
+            while (!sr.EndOfStream)
+            {
+                string line = sr.ReadLine();
+                var parts = line.Split(':');
+                var weight = double.Parse(parts[1]);
+                if (weight > 1.9)
+                    localDictionary.addFinalWeight(parts[0], weight);
+            }
         }
     }
 }

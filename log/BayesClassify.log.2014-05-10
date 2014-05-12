@@ -1,0 +1,27 @@
+[Header] 2014-05-10 20:03:10,856 [9] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-10 20:03:55,045 [9] INFO  BayesClassify.Program [(null)] - 44.1437466秒
+2014-05-10 20:03:55,046 [9] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-10 20:11:29,379 [10] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-10 20:12:12,527 [10] INFO  BayesClassify.Program [(null)] - 43.1017135秒
+2014-05-10 20:12:12,528 [10] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-10 21:30:15,693 [10] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-10 21:31:03,955 [10] INFO  BayesClassify.Program [(null)] - 48.2161252秒
+2014-05-10 21:31:03,956 [10] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-10 21:35:01,695 [9] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-10 21:35:49,451 [9] INFO  BayesClassify.Program [(null)] - 47.7097874秒
+2014-05-10 21:35:49,452 [9] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] [Footer] [Header] [Footer] [Header] 2014-05-10 23:48:28,658 [12] ERROR BayesClassify.BayesLearning.AutoLearnRecentPost [(null)] - AutoLearn Sina
+System.DivideByZeroException: 尝试除以零。
+   在 BayesClassify.BayesLearning.PercentList.analyseAndSave(String text, String reason) 位置 f:\GitHub\sweep\BayesClassify\BayesLearning\PercentList.cs:行号 303
+   在 BayesClassify.BayesLearning.AutoLearnRecentPost.analyseRecent(Object state) 位置 f:\GitHub\sweep\BayesClassify\BayesLearning\AutoLearnRecentPost.cs:行号 63
+2014-05-10 23:48:57,963 [3] ERROR BayesClassify.BayesLearning.AutoLearnRecentPost [(null)] - AutoLearn Sina
+System.DivideByZeroException: 尝试除以零。
+   在 BayesClassify.BayesLearning.PercentList.analyseAndSave(String text, String reason) 位置 f:\GitHub\sweep\BayesClassify\BayesLearning\PercentList.cs:行号 303
+   在 BayesClassify.BayesLearning.AutoLearnRecentPost.analyseRecent(Object state) 位置 f:\GitHub\sweep\BayesClassify\BayesLearning\AutoLearnRecentPost.cs:行号 63
+[Footer] [Header] 2014-05-10 23:54:29,032 [9] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-10 23:55:29,812 [9] INFO  BayesClassify.Program [(null)] - 60.7254573秒
+2014-05-10 23:55:29,813 [9] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-10 23:58:30,693 [9] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-10 23:59:41,627 [9] INFO  BayesClassify.Program [(null)] - 70.8692176秒
+2014-05-10 23:59:41,627 [9] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] 

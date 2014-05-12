@@ -55,6 +55,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
     </Reference>
+    <Reference Include="NetDimension.Weibo">
+      <HintPath>..\lib\NetDimension.Weibo.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -64,6 +67,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BayesLearning\AutoLearnRecentPost.cs" />
+    <Compile Include="BayesLearning\BayesItem.cs" />
+    <Compile Include="BayesLearning\PercentList.cs" />
     <Compile Include="Dictionary\Dictionary.cs" />
     <Compile Include="Dictionary\DictionaryBuilder.cs" />
     <Compile Include="Dictionary\Word.cs" />
@@ -96,6 +102,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

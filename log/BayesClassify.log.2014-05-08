@@ -1,0 +1,16 @@
+[Header] 2014-05-08 15:40:01,203 [10] INFO  BayesClassify.Program [(null)] - learn start
+[Header] 2014-05-08 15:49:05,349 [10] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-08 15:50:01,907 [10] INFO  BayesClassify.Program [(null)] - 56.5116866취
+2014-05-08 15:50:01,908 [10] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-08 15:51:11,972 [9] INFO  BayesClassify.Program [(null)] - learn start
+[Header] 2014-05-08 19:10:22,565 [10] INFO  BayesClassify.Program [(null)] - learn start
+[Header] 2014-05-08 19:14:15,129 [9] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-08 19:15:09,049 [9] INFO  BayesClassify.Program [(null)] - 53.8638858취
+2014-05-08 19:15:09,050 [9] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-08 19:16:17,327 [9] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-08 19:18:28,254 [9] INFO  BayesClassify.Program [(null)] - 130.8733922취
+2014-05-08 19:18:28,255 [9] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] [Header] 2014-05-08 19:19:18,583 [9] INFO  BayesClassify.Program [(null)] - learn start
+2014-05-08 19:20:14,697 [9] INFO  BayesClassify.Program [(null)] - 56.0655847취
+2014-05-08 19:20:14,698 [9] INFO  BayesClassify.Program [(null)] - learn end
+[Footer] 
