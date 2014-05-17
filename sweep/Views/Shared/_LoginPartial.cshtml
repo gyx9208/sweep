@@ -1,12 +1,12 @@
 ﻿@if (Request.Cookies["AccessToken"]!=null) {
     <li>
-        <a href="#">Welcome,@ViewBag.Name!</a>
+        <a href="#">@Session["Name"]</a>
     </li>
     <li>
-        @Html.ActionLink("Logout","Logout","Home")
+        @Html.ActionLink("登出","Logout","Home")
     </li>
 } else {
     <li>
-        @Html.ActionLink("Login", "Login", "Home")
+        @Html.ActionLink("登入", "Login", "Home")
     </li>
 }

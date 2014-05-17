@@ -39,7 +39,7 @@ namespace BayesClassify
                 }
                 sw.Close();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
 

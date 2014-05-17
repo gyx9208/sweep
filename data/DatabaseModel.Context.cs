@@ -27,5 +27,6 @@ namespace data
     
         public DbSet<posts> posts { get; set; }
         public DbSet<sinaaccounts> sinaaccounts { get; set; }
+        public DbSet<wastelist> wastelist { get; set; }
     }
 }

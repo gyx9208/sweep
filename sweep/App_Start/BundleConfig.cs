@@ -41,6 +41,14 @@ namespace sweep
 
             bundles.Add(new StyleBundle("~/Content/bootstrap/css").Include(
                         "~/Content/bootstrap-3.1.1/css/bootstrap.css"));
+            bundles.Add(new ScriptBundle("~/Content/bootstrap/js").Include(
+                        "~/Content/bootstrap-3.1.1/js/bootstrap.js"));
+            bundles.Add(new StyleBundle("~/Content/sweep/css").Include(
+                        "~/Content/sweep/css/default.css"));
+            bundles.Add(new ScriptBundle("~/Content/sweep/js").Include(
+                        "~/Content/sweep/js/jquery.timer.js",
+                        "~/Content/sweep/js/sweep_configure.js"));
+
         }
     }
 }

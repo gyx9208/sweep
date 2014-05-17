@@ -8,6 +8,7 @@
         <EntityContainer Name="sweepModelStoreContainer">
           <EntitySet Name="posts" EntityType="sweepModel.Store.posts" store:Type="Tables" Schema="sweep" />
           <EntitySet Name="sinaaccounts" EntityType="sweepModel.Store.sinaaccounts" store:Type="Tables" Schema="sweep" />
+          <EntitySet Name="wastelist" EntityType="sweepModel.Store.wastelist" store:Type="Tables" Schema="sweep" />
           <AssociationSet Name="id" Association="sweepModel.Store.id">
             <End Role="sinaaccounts" EntitySet="sinaaccounts" />
             <End Role="posts" EntitySet="posts" />
@@ -36,6 +37,12 @@
           <Property Name="statuses_count" Type="int" Nullable="false" />
           <Property Name="favourites_count" Type="int" Nullable="false" />
         </EntityType>
+        <EntityType Name="wastelist">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="varchar" Nullable="false" MaxLength="20" />
+        </EntityType>
         <Association Name="id">
           <End Role="sinaaccounts" Type="sweepModel.Store.sinaaccounts" Multiplicity="1">
             <OnDelete Action="Cascade" />
@@ -61,6 +68,7 @@
             <End Role="sinaaccounts" EntitySet="sinaaccounts" />
             <End Role="posts" EntitySet="posts" />
           </AssociationSet>
+          <EntitySet Name="wastelist" EntityType="sweepModel.wastelist" />
         </EntityContainer>
         <EntityType Name="posts">
           <Key>
@@ -101,6 +109,12 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityType Name="wastelist">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="String" Name="id" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
         </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -128,6 +142,13 @@
                 <ScalarProperty Name="name" ColumnName="name" />
                 <ScalarProperty Name="isWaste" ColumnName="isWaste" />
                 <ScalarProperty Name="uid" ColumnName="uid" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="wastelist">
+            <EntityTypeMapping TypeName="sweepModel.wastelist">
+              <MappingFragment StoreEntitySet="wastelist">
                 <ScalarProperty Name="id" ColumnName="id" />
               </MappingFragment>
             </EntityTypeMapping>

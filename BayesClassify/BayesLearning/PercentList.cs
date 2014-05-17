@@ -11,7 +11,7 @@ using System.IO;
 
 namespace BayesClassify.BayesLearning
 {
-    class PercentList
+    public class PercentList
     {
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
@@ -233,8 +233,6 @@ namespace BayesClassify.BayesLearning
             return BayesList;
         }
 
-
-
         public void buildFromFile(string filename)
         {
             StreamReader sr = new StreamReader(filename);
@@ -277,10 +275,9 @@ namespace BayesClassify.BayesLearning
 
                 sw.Close();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
-
         }
 
         private const double FLAG = 0.9;
@@ -352,6 +349,44 @@ namespace BayesClassify.BayesLearning
                 return 1;
             }
         }
+
+        public double analyse(string text, string reason)
+        {
+            List<string> list = new List<string>();
+            int length = 0;
+            List<string> textList = getPureWords(text, ref length);
+            List<string> reasonList = getPureWords(reason, ref length);
+            int ll = length - textList.Count * 2 - reasonList.Count * 2;
+            int wl = textList.Count * 2 + reasonList.Count * 2;
+            list.AddRange(textList);
+            list.AddRange(reasonList);
+
+            removeDuplicate(list);
+
+            List<double> plist = new List<double>();
+            List<BayesItem> findList = new List<BayesItem>();
+
+            double multiP = 1, multiNP = 1;
+            for (int i = 0; i < list.Count; i++)
+            {
+                BayesItem b = findBayesItem(list[i]);
+                if (b != null)
+                {
+                    findList.Add(b);
+                    double p = ((double)b.WasteCount / this.totalCount) / ((double)b.WasteCount / this.totalCount + (double)b.NormalCount / this.totalCount);
+                    plist.Add(p);
+                }
+            }
+
+            for (int i = 0; i < plist.Count; i++)
+            {
+                multiP *= plist[i];
+                multiNP *= (1 - plist[i]);
+            }
+            double finalP = multiP / (multiP + multiNP) * lengthMul(ll, wl);
+            return finalP;
+        }
+
 
         private const double K = 0.3142857, L = 10.0;
         private double lengthMul(int ll, int wl)

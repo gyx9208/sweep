@@ -1,0 +1,48 @@
+2014-05-17 00:10:29,814 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：2003423885
+2014-05-17 00:10:29,881 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadToEnd()
+   在 sweep.SweepLogic.HtmlDownloader.downloadHtml(String url, CookieContainer cookie) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 167
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 61
+2014-05-17 00:11:14,763 ERROR sweep.SweepLogic.HtmlDownloader - time out ;collect user error uid：2003423885
+2014-05-17 00:12:08,894 ERROR sweep.SweepLogic.HtmlDownloader - time out ;collect user error uid：2003423885
+2014-05-17 00:20:52,120 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：2003423885
+2014-05-17 00:20:52,121 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadToEnd()
+   在 sweep.SweepLogic.HtmlDownloader.downloadHtml(String url, CookieContainer cookie) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 167
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 61
+2014-05-17 00:22:52,401 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：2003423885
+2014-05-17 00:22:52,401 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Net.Connection.CompleteStartConnection(Boolean async, HttpWebRequest httpWebRequest)
+   在 System.Net.Connection.CompleteStartRequest(Boolean onSubmitThread, HttpWebRequest request, TriState needReConnect)
+   在 System.Net.Connection.SubmitRequest(HttpWebRequest request, Boolean forcedsubmit)
+   在 System.Net.ServicePoint.SubmitRequest(HttpWebRequest request, String connName)
+   在 System.Net.HttpWebRequest.SubmitRequest(ServicePoint servicePoint)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 sweep.SweepLogic.HtmlDownloader.downloadHtml(String url, CookieContainer cookie) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 164
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 61
+2014-05-17 00:22:56,655 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：2003423885
+2014-05-17 00:22:56,656 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Net.Connection.CompleteStartConnection(Boolean async, HttpWebRequest httpWebRequest)
+   在 System.Net.Connection.CompleteStartRequest(Boolean onSubmitThread, HttpWebRequest request, TriState needReConnect)
+   在 System.Net.Connection.SubmitRequest(HttpWebRequest request, Boolean forcedsubmit)
+   在 System.Net.ServicePoint.SubmitRequest(HttpWebRequest request, String connName)
+   在 System.Net.HttpWebRequest.SubmitRequest(ServicePoint servicePoint)
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 sweep.SweepLogic.HtmlDownloader.downloadHtml(String url, CookieContainer cookie) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 164
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 61
+2014-05-17 00:23:01,797 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：2003423885
+2014-05-17 00:23:01,797 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadToEnd()
+   在 sweep.SweepLogic.HtmlDownloader.downloadHtml(String url, CookieContainer cookie) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 167
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 61

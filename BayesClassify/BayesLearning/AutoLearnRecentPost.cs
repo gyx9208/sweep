@@ -44,7 +44,6 @@ namespace BayesClassify.BayesLearning
 
         private static readonly string AppKey = "2031241233";
         private static readonly string AppSecret = "58be4648aa7511550ea8133a6227e3bf";
-        private static readonly string CallbackUrl = "http://sweep.gyx.com";
         private static readonly string AccessToken = "2.00TEKaLC4ds9NCaf44fd47a4bbGdpC";
 
         private void analyseRecent(object state)

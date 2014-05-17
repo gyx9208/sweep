@@ -70,6 +70,7 @@
     <Compile Include="BayesLearning\AutoLearnRecentPost.cs" />
     <Compile Include="BayesLearning\BayesItem.cs" />
     <Compile Include="BayesLearning\PercentList.cs" />
+    <Compile Include="BayesLearning\UrlList.cs" />
     <Compile Include="Dictionary\Dictionary.cs" />
     <Compile Include="Dictionary\DictionaryBuilder.cs" />
     <Compile Include="Dictionary\Word.cs" />

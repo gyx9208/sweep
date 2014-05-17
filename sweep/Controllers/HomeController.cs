@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using NetDimension.Weibo;
 using System.Configuration;
 using collect;
+using sweep.Models;
 
 
 namespace sweep.Controllers
@@ -13,9 +14,9 @@ namespace sweep.Controllers
     public class HomeController : Controller
     {
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(typeof(HomeController));
-        private static readonly string AppKey = ConfigurationManager.AppSettings["AppKey"];
-        private static readonly string AppSecret = ConfigurationManager.AppSettings["AppSecret"];
-        private static readonly string CallbackUrl = ConfigurationManager.AppSettings["CallbackUrl"];
+        private static readonly string AppKey = AppDefault.AppKey;
+        private static readonly string AppSecret = AppDefault.AppSecret;
+        private static readonly string CallbackUrl = AppDefault.CallbackUrl;
 
         public ActionResult Index()
         {
@@ -47,12 +48,18 @@ namespace sweep.Controllers
                 try
                 {
                     string uid = Sina.API.Entity.Account.GetUID();
-                    ViewBag.Name = Sina.API.Entity.Users.Show(uid).Name;
+                    var user = Sina.API.Entity.Users.Show(uid);
+                    Session.Add("Name", user.Name);
+                    Session.Add("User", user);
                 }
                 catch (WeiboException ex)
                 {
                     log.Error("goAfterAuth", ex);
                 }
+            }
+            else
+            {
+                Response.Cookies["AccessToken"].Expires = System.DateTime.Now.AddDays(-1);
             }
         }
                 
@@ -90,6 +97,7 @@ namespace sweep.Controllers
         public ActionResult Logout()
         {
             Response.Cookies["AccessToken"].Expires = System.DateTime.Now.AddDays(-1);
+            Session.RemoveAll();
             return RedirectToAction("Index", "Home");
         }
 

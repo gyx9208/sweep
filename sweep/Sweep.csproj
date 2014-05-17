@@ -190,11 +190,20 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SweepController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\AppDefault.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SweepLogic\CheckMethods\BayesCheck.cs" />
+    <Compile Include="SweepLogic\CheckMethods\QuickCheck.cs" />
+    <Compile Include="SweepLogic\CheckMethods\UrlCheck.cs" />
+    <Compile Include="SweepLogic\CleanThread.cs" />
+    <Compile Include="SweepLogic\HtmlDownloader.cs" />
+    <Compile Include="SweepLogic\SweepCommon.cs" />
+    <Compile Include="SweepLogic\SweepState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-3.1.1\css\bootstrap-theme.css" />
@@ -204,6 +213,9 @@
     <Content Include="Content\bootstrap-3.1.1\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\bootstrap-3.1.1\js\bootstrap.js" />
     <Content Include="Content\bootstrap-3.1.1\js\bootstrap.min.js" />
+    <Content Include="Content\sweep\css\default.css" />
+    <Content Include="Content\sweep\js\jquery.timer.js" />
+    <Content Include="Content\sweep\js\sweep_configure.js" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -266,6 +278,9 @@
     <Content Include="Content\bootstrap-3.1.1\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\bootstrap-3.1.1\fonts\glyphicons-halflings-regular.woff" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Images\5_content_email.png" />
+    <Content Include="Images\background.png" />
+    <Content Include="Images\theme_ntp_background.png" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -321,6 +336,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Collect.cshtml" />
+    <Content Include="Views\Sweep\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -330,9 +346,17 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BayesClassify\BayesClassify.csproj">
+      <Project>{0fc75895-30c1-4b34-9a7d-4b4cb75fb629}</Project>
+      <Name>BayesClassify</Name>
+    </ProjectReference>
     <ProjectReference Include="..\collect\Collect.csproj">
       <Project>{c4973e93-74a4-4c78-bb13-909379dfa8ab}</Project>
       <Name>Collect</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\data\Data.csproj">
+      <Project>{6f0def81-a21a-4fb0-be7f-3b814e5c89cc}</Project>
+      <Name>Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -1,20 +1,33 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Sweep";
 }
-
+@section head{
+    @Styles.Render("~/Content/sweep/css")
+}
 @section navbar{
 <li class="active">
     @Html.ActionLink("主页", "Index","Home")
 </li>
+@if (Request.Cookies["AccessToken"]!=null) {
+    <li>
+        @Html.ActionLink("扫除","Index","Sweep")
+    </li>
+}
 }
 <div class="jumbotron">
     <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" role="button">Learn more »</a></p>
+        <h1>微博大扫除！</h1>
+        <p>还在为看到看到美容广告而烦恼吗？还在为满眼的心灵鸡汤而心烦吗？还在烦恼粉丝里都是虚假账号吗？想要知道自己的真实粉丝数量吗？</p>
+        @if(Request.Cookies["AccessToken"]!=null) {
+        <p>@Html.ActionLink("现在就扫除 »", "Index", "Sweep", null, new { @class = "btn btn-primary btn-lg", role = "button" })</p>
+        }else{
+        <p>@Html.ActionLink("现在就扫除 »", "Index", "Sweep", null, new { @class = "btn btn-primary btn-lg", role = "button",disabled="disabled" })
+            <span class="label label-warning" style="font-size:6px">！请先登入</span>
+        </p>
+        }
     </div>
 </div>
-@if (Request.Cookies["AccessToken"] != null)
+@*@if (Request.Cookies["AccessToken"] != null)
 {
     <div id="collect-info-div">
         @using (Html.BeginForm("Collect", "Home", FormMethod.Post, new { id = "collectForm" })) {
@@ -22,4 +35,4 @@
             <text>如果您愿意提供您的粉丝和关注信息供我们研究，请</text><a href="javascript:document.getElementById('collectForm').submit()">点击这里</a>
         }
     </div>
-}
+}*@

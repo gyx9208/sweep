@@ -5,9 +5,10 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="7a57215df3854f90b19736aaf82be7cf" Name="关系图1" >
-        <EntityTypeShape EntityType="sweepModel.posts" Width="1.5" PointX="1" PointY="0.5" />
-        <EntityTypeShape EntityType="sweepModel.sinaaccounts" Width="1.5" PointX="3.625" PointY="0.5" />
+        <EntityTypeShape EntityType="sweepModel.posts" Width="1.5" PointX="0.5" PointY="0.5" />
+        <EntityTypeShape EntityType="sweepModel.sinaaccounts" Width="1.5" PointX="2.25" PointY="0.5" />
         <AssociationConnector Association="sweepModel.id" />
+        <EntityTypeShape EntityType="sweepModel.wastelist" Width="1.5" PointX="4.125" PointY="0.5" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

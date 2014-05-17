@@ -1,0 +1,182 @@
+﻿@{
+    ViewBag.Title = "Sweep";
+}
+@section head{
+    @Styles.Render("~/Content/sweep/css")
+    @Scripts.Render("~/Content/sweep/js")
+
+    <script type="text/javascript">
+        var inProcess = @ViewBag.StateId ;
+        var quick=@ViewBag.Quick ;
+        var url=@ViewBag.IncludeUrl ;
+        var target=@ViewBag.Target ;
+    </script>
+}
+@section navbar{
+<li>
+    @Html.ActionLink("主页", "Index","Home")
+</li>
+<li class="active">
+    @Html.ActionLink("扫除","Index","Sweep")
+</li>
+}
+<div class="container">
+    <div class="sweep-top-informer">
+        <img src="~/Images/5_content_email.png" />
+        <span class="title">
+            管理员
+        </span>
+        <span class="text">
+            网站试运行中，发生一切问题或者有什么建议请邮件至 gyx9208@gmail.com ,万分感谢。
+        </span>
+    </div>
+    <div class="row">
+        <div class="sweep-configure col-md-5">
+            <div class="instruction-text">
+                <span class="label label-info">! 目前暂不支持同时扫描粉丝和关注</span>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-default @if ((ViewBag.StateId == 1 && ViewBag.Target == 0) || ViewBag.StateId == 0)
+                                                             {
+@:active
+                                                             }" id="follower-mode">扫描粉丝</button>
+                <button type="button" class="btn btn-default @if(ViewBag.StateId==1 && ViewBag.Target==1){
+@:active
+                                                             }" id="friend-mode">扫描关注</button>
+                <div class="clearfix"></div>
+            </div>
+            <div class="instruction-text">
+                <span class="label label-info">! 选择快速模式可以以最快的速度完成扫描</span>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-default @if((ViewBag.StateId==1 && ViewBag.Quick==1)|| ViewBag.StateId == 0){
+@:active
+                                                             }" id="quick-mode">快速模式</button>
+                <button type="button" class="btn btn-default @if(ViewBag.StateId==1 && ViewBag.Quick==0){
+@:active
+                                                             }" id="custom-mode">自定模式</button>
+                <div class="clearfix"></div>
+            </div>
+            <div class="btn-group custom-div" @if(ViewBag.StateId==1 && ViewBag.Quick==0){
+@:style="overflow: hidden; display: block;"
+                                                             }else{
+@:
+                                              }>
+                <button type="button" class="btn btn-default @if ((ViewBag.StateId == 1 && ViewBag.IncludeUrl == 1)||ViewBag.StateId==0)
+                                                             {
+@:active
+                                                             }" id="url-yes">扫描URL</button>
+                <button type="button" class="btn btn-default @if (ViewBag.StateId == 1 && ViewBag.IncludeUrl == 0)
+                                                             {
+@:active
+                                                             }" id="url-no">不扫描URL</button>
+                <div class="clearfix"></div>
+            </div>
+            <div class="start-div">
+                <button type="button" class="btn btn-info" id="start-sweep"><span class="glyphicon glyphicon-play"></span> 开始扫除</button>
+            </div>
+            <div class="end-div">
+                <button type="button" class="btn btn-danger" id="end-sweep"><span class="glyphicon glyphicon-stop"></span> 结束扫除</button>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-md-5 user-info">
+            <div class="user-info-avatar">
+                <a href="@ViewBag.Url" target="_blank"><img src="@ViewBag.ImgUrl" /></a>
+                <div style="clear:left"></div>
+            </div>
+            <div class="user-info-right">
+                <a href="@ViewBag.Url" class="user-info-name" target="_blank">@ViewBag.Name</a>
+                <span class="user-info-location">@ViewBag.Location</span>
+                <br />
+                <span class="user-info-description">@ViewBag.Description</span>
+                <br />
+                <div class="col-md-4 center">
+                    <a href="@ViewBag.Url/myfollow" target="_blank">
+                        <span class="column-number">@ViewBag.FriendsCount</span>
+                        <span class="column-text">关注</span>
+                    </a>
+                </div>
+                <div class="col-md-4 center">
+                    <a href="@ViewBag.Url/myfans" target="_blank">
+                        <span class="column-number">@ViewBag.FollowersCount</span>
+                        <span class="column-text">粉丝</span>
+                    </a>
+                </div>
+                <div class="col-md-4 center">
+                    <a href="@ViewBag.Url" target="_blank">
+                        <span class="column-number">@ViewBag.StatusesCount</span>
+                        <span class="column-text">微博</span>
+                    </a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <div class="progress-div" @if (ViewBag.StateId == 1)
+                              {
+@:style="display:block"
+        }
+                              else
+                              {
+@:                                  
+                              }>
+        <div class="progress progress-striped active">
+            <div class="progress-bar progress-bar-success" role="progressbar" style="width:
+                @if (ViewBag.StateId == 1){
+    @:@ViewBag.Percent
+                }else{
+                    @:0
+                    }%">
+                @if (ViewBag.StateId == 1){
+                    @:@ViewBag.Percent
+                }else{
+                    @:0
+                    }%
+            </div>
+        </div>
+        <div class="progress-text">
+             @if (ViewBag.StateId == 1){
+                 @:@ViewBag.State
+            }
+        </div>
+    </div>
+
+    <div class="result-div result-fans">
+        <div class="result-num-div">
+            官方显示 <span class="user-name">@ViewBag.Name</span> 共有 <span class="dynamic total-count"></span> 位粉丝，其中有 <span class="dynamic official-waste-count" title="新浪系统虽然屏蔽了他们，但仍计算在粉丝总数中，却不出现在粉丝列表中。"></span> 位屏蔽粉丝。<br />
+            剩下的 <span class="dynamic real-total-count"></span> 位粉丝中，扫描出了 <span class="dynamic waste-count"></span> 位垃圾粉丝。
+        </div>
+
+        <div class="result-table-div">
+            <div class="checkbox-div">
+                <input type="checkbox"/>全选
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="button-div">
+            <button type="button" class="btn btn-success" id="clean-fans" disabled="disabled" title="Sina微博不开放清理粉丝接口，还请手动清理">
+                <span class="glyphicon glyphicon-trash"></span> 清除所选粉丝
+            </button>
+        </div>
+    </div>
+
+    <div class="result-div result-friends">
+        <div class="result-num-div">
+            官方显示 <span class="user-name">@ViewBag.Name</span> 共有 <span class="dynamic total-count"></span> 位关注，其中有 <span class="dynamic official-waste-count" title="新浪系统虽然屏蔽了他们，但仍计算在关注总数中，却不出现在关注列表中。"></span> 位屏蔽关注。<br />
+            剩下的 <span class="dynamic real-total-count"></span> 位关注中，扫描出了 <span class="dynamic waste-count"></span> 位垃圾关注。
+        </div>
+
+        <div class="result-table-div">
+            
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="button-div">
+            <button type="button" class="btn btn-success" id="clean-friends"><span class="glyphicon glyphicon-trash"></span> 清除所选关注</button>
+        </div>
+    </div>
+</div>
