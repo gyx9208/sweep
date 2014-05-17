@@ -11,7 +11,7 @@ namespace sweep.SweepLogic.CheckMethods
     {
         private static PercentList percentList = null;
 
-        public const double FLAG = 0.8;
+        public const double FLAG = 0.9;
 
         public static bool Check(List<posts> resultList)
         {

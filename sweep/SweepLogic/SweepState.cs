@@ -113,17 +113,11 @@ namespace sweep.SweepLogic
                             var current = targetList[i];
                             bool b1 = QuickCheck.Check(current);//in waste Database
 
-                            if (quickMode == 1)
+                            if (quickMode == 1 || b1)
                             {
                                 handleResult(targetList, i, b1);
                                 continue;
                             }
-                            if (b1)
-                            {
-                                handleResult(targetList, i, b1);
-                                continue;
-                            }
-
                             HtmlDownloader down = new HtmlDownloader(targetList[i].ID);
 
                             if (down.resultState == HtmlDownloader.RESULTSTATE.TIMEOUT)  //3次机会
@@ -134,12 +128,7 @@ namespace sweep.SweepLogic
                             {
                                 b2 = BayesCheck.Check(down.resultList);
                             }
-                            if (includeUrl == 0)
-                            {
-                                handleResult(targetList, i, b2);
-                                continue;
-                            }
-                            if (b2)
+                            if (includeUrl == 0 || b2)
                             {
                                 handleResult(targetList, i, b2);
                                 continue;

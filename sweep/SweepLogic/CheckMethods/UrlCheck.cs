@@ -10,7 +10,8 @@ namespace sweep.SweepLogic.CheckMethods
     public class UrlCheck
     {
         private static UrlList urlList=null;
-        public const double FLAG = 0.9;
+
+        public const double FLAG = 0.8;
 
         public static bool Check(List<posts> resultList)
         {

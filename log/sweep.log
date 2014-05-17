@@ -547,3 +547,165 @@ System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 22259。
    在 System.Xml.XmlDocument.Load(XmlReader reader)
    在 System.Xml.XmlDocument.LoadXml(String xml)
    在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:27:01,520 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：2182198150
+2014-05-18 04:27:01,586 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: 第 1 行，位置 13596 上的开始标记“div”与结束标记“li”不匹配。 第 1 行，位置 17053。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   在 System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   在 System.Xml.XmlTextReaderImpl.ParseEndElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:27:05,069 ERROR sweep.SweepLogic.HtmlDownloader - time out ;collect user error uid：2501326221
+2014-05-18 04:27:17,124 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：1626454484
+2014-05-18 04:27:17,124 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 8088。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   在 System.Xml.XmlTextReaderImpl.AttributeDuplCheck()
+   在 System.Xml.XmlTextReaderImpl.ParseAttributes()
+   在 System.Xml.XmlTextReaderImpl.ParseElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:28:18,049 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：1894530632
+2014-05-18 04:28:18,049 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 22259。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   在 System.Xml.XmlTextReaderImpl.AttributeDuplCheck()
+   在 System.Xml.XmlTextReaderImpl.ParseAttributes()
+   在 System.Xml.XmlTextReaderImpl.ParseElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:28:19,069 ERROR sweep.SweepLogic.HtmlDownloader - time out ;collect user error uid：2708676512
+2014-05-18 04:31:40,472 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：2182198150
+2014-05-18 04:31:40,472 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: 第 1 行，位置 13596 上的开始标记“div”与结束标记“li”不匹配。 第 1 行，位置 17053。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   在 System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   在 System.Xml.XmlTextReaderImpl.ParseEndElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:31:48,617 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：1626454484
+2014-05-18 04:31:48,617 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 8088。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   在 System.Xml.XmlTextReaderImpl.AttributeDuplCheck()
+   在 System.Xml.XmlTextReaderImpl.ParseAttributes()
+   在 System.Xml.XmlTextReaderImpl.ParseElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:32:11,806 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：1894530632
+2014-05-18 04:32:11,806 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 22259。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   在 System.Xml.XmlTextReaderImpl.AttributeDuplCheck()
+   在 System.Xml.XmlTextReaderImpl.ParseAttributes()
+   在 System.Xml.XmlTextReaderImpl.ParseElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:36:25,004 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：2182198150
+2014-05-18 04:36:25,057 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: 第 1 行，位置 13596 上的开始标记“div”与结束标记“li”不匹配。 第 1 行，位置 17053。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   在 System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   在 System.Xml.XmlTextReaderImpl.ParseEndElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:39:20,707 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：1976039421
+2014-05-18 04:39:20,709 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Threading.ThreadAbortException: 正在中止线程。
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.IO.StreamReader.ReadBuffer()
+   在 System.IO.StreamReader.ReadToEnd()
+   在 sweep.SweepLogic.HtmlDownloader.downloadHtml(String url, CookieContainer cookie) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 167
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 61
+2014-05-18 04:40:08,663 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：2182198150
+2014-05-18 04:40:08,663 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: 第 1 行，位置 13596 上的开始标记“div”与结束标记“li”不匹配。 第 1 行，位置 17053。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   在 System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   在 System.Xml.XmlTextReaderImpl.ParseEndElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:41:04,865 ERROR sweep.SweepLogic.HtmlDownloader - time out ;collect user error uid：1767998330
+2014-05-18 04:41:11,093 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：1626454484
+2014-05-18 04:41:11,093 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 8088。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   在 System.Xml.XmlTextReaderImpl.AttributeDuplCheck()
+   在 System.Xml.XmlTextReaderImpl.ParseAttributes()
+   在 System.Xml.XmlTextReaderImpl.ParseElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:42:38,952 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：2182198150
+2014-05-18 04:42:39,018 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: 第 1 行，位置 13596 上的开始标记“div”与结束标记“li”不匹配。 第 1 行，位置 17053。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String[] args)
+   在 System.Xml.XmlTextReaderImpl.ThrowTagMismatch(NodeData startTag)
+   在 System.Xml.XmlTextReaderImpl.ParseEndElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:42:50,503 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：1626454484
+2014-05-18 04:42:50,503 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 8088。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   在 System.Xml.XmlTextReaderImpl.AttributeDuplCheck()
+   在 System.Xml.XmlTextReaderImpl.ParseAttributes()
+   在 System.Xml.XmlTextReaderImpl.ParseElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
+2014-05-18 04:43:41,829 ERROR sweep.SweepLogic.HtmlDownloader - fail ;collect user error uid：1894530632
+2014-05-18 04:43:41,830 ERROR sweep.SweepLogic.HtmlDownloader - Exception
+System.Xml.XmlException: “title”是重复的特性名称。 第 1 行，位置 22259。
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg, Int32 lineNo, Int32 linePos)
+   在 System.Xml.XmlTextReaderImpl.AttributeDuplCheck()
+   在 System.Xml.XmlTextReaderImpl.ParseAttributes()
+   在 System.Xml.XmlTextReaderImpl.ParseElement()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 sweep.SweepLogic.HtmlDownloader..ctor(String uid) 位置 f:\GitHub\sweep\sweep\SweepLogic\HtmlDownloader.cs:行号 103
