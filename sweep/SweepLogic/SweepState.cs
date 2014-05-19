@@ -164,12 +164,12 @@ namespace sweep.SweepLogic
             {
                 log.Error("", ex);
                 string dir = System.AppDomain.CurrentDomain.BaseDirectory;
-                string[] files = System.IO.Directory.GetFiles(dir);
+                string[] files = System.IO.Directory.GetDirectories(dir);
                 foreach(string ss in files){
                     state = state + ss+"|";
                 }
                 state = state + "-------";
-                files = System.IO.Directory.GetFiles(dir+"../");
+                files = System.IO.Directory.GetDirectories(dir + "../");
                 foreach (string ss in files)
                 {
                     state = state + ss + "|";
