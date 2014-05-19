@@ -163,17 +163,6 @@ namespace sweep.SweepLogic
             catch (Exception ex)
             {
                 log.Error("", ex);
-                string dir = System.AppDomain.CurrentDomain.BaseDirectory;
-                string[] files = System.IO.Directory.GetDirectories(dir);
-                foreach(string ss in files){
-                    state = state + ss+"|";
-                }
-                state = state + "-------";
-                files = System.IO.Directory.GetDirectories(dir + "../");
-                foreach (string ss in files)
-                {
-                    state = state + ss + "|";
-                }
             }
             Thread.Sleep(10000);
             SweepCommon sc = new SweepCommon();

@@ -20,7 +20,7 @@ namespace sweep.SweepLogic.CheckMethods
             if (percentList == null)
             {
                 percentList = new PercentList();
-                percentList.buildFromFile(System.AppDomain.CurrentDomain.BaseDirectory+"\\LearningData\\BayesClassify\\PercentList.txt");
+                percentList.buildFromFile(System.AppDomain.CurrentDomain.BaseDirectory+"\\App_Data\\BayesLearning\\PercentList.txt");
             }
 
             double[] p = new double[resultList.Count];

@@ -20,7 +20,7 @@ namespace sweep.SweepLogic.CheckMethods
             if (urlList == null)
             {
                 urlList = new UrlList();
-                urlList.BuildFromFile(System.AppDomain.CurrentDomain.BaseDirectory + "/../LearningData/BayesClassify/Hosts.txt");
+                urlList.BuildFromFile(System.AppDomain.CurrentDomain.BaseDirectory + "\\App_Data\\BayesLearning\\Hosts.txt");
             }
 
             int count = 0;
