@@ -307,7 +307,7 @@ namespace BayesClassify.BayesLearning
                 if (b != null)
                 {
                     findList.Add(b);
-                    double p = ((double)b.WasteCount / this.totalCount) / ((double)b.WasteCount / this.totalCount + (double)b.NormalCount / this.totalCount);
+                    double p = ((double)b.WasteCount) / ((double)b.WasteCount + (double)b.NormalCount);
                     plist.Add(p);
                     //log.Info(list[i] + ":" + p);
                 }
@@ -373,7 +373,7 @@ namespace BayesClassify.BayesLearning
                 if (b != null)
                 {
                     findList.Add(b);
-                    double p = ((double)b.WasteCount / this.totalCount) / ((double)b.WasteCount / this.totalCount + (double)b.NormalCount / this.totalCount);
+                    double p = ((double)b.WasteCount) / ((double)b.WasteCount + (double)b.NormalCount);
                     plist.Add(p);
                 }
             }

@@ -10,14 +10,14 @@ namespace sweep.SweepLogic.CheckMethods
     {
         public static bool Check(NetDimension.Weibo.Entities.user.Entity current)
         {
-            using (var db = new sweepEntities1())
-            {
-                if (db.wastelist.Count(p => p.id == current.ID) == 1)
-                {
-                    return true;
-                }
-            }
             return false;
+            //using (var db = new sweepEntities1())
+            //{
+            //    if (db.wastelist.Count(p => p.id == current.ID) == 1)
+            //    {
+            //        return true;
+            //    }
+            //}
         }
     }
 }
