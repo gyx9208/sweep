@@ -37,11 +37,6 @@ namespace sweep
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
 
-            bundles.Add(new StyleBundle("~/Content/bootstrap/css").Include(
-                        "~/Content/bootstrap-3.1.1/css/bootstrap.css"));
-            bundles.Add(new ScriptBundle("~/Content/bootstrap/js").Include(
-                        "~/Content/bootstrap-3.1.1/js/bootstrap.js"));
-
             bundles.Add(new StyleBundle("~/Content/css").Include(
                         "~/Content/sweep/css/sweep_default.css"));
             bundles.Add(new ScriptBundle("~/Content/js").Include(

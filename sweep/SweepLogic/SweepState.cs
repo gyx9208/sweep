@@ -163,8 +163,9 @@ namespace sweep.SweepLogic
             catch (Exception ex)
             {
                 log.Error("", ex);
+                state = ex.ToString();
             }
-            Thread.Sleep(6000);
+            Thread.Sleep(10000);
             SweepCommon sc = new SweepCommon();
             sc.RemoveStatus(user.ID);
         }
