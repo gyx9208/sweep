@@ -43,7 +43,7 @@ namespace collect {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://sweep.gyx.com")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://weibosweep.azurewebsites.net")]
         public string CallbackUrl {
             get {
                 return ((string)(this["CallbackUrl"]));

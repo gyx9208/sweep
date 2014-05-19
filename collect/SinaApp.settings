@@ -9,7 +9,7 @@
       <Value Profile="(Default)">58be4648aa7511550ea8133a6227e3bf</Value>
     </Setting>
     <Setting Name="CallbackUrl" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">http://sweep.gyx.com</Value>
+      <Value Profile="(Default)">http://weibosweep.azurewebsites.net</Value>
     </Setting>
     <Setting Name="AccessToken" Type="System.String" Scope="Application">
       <Value Profile="(Default)">2.00TEKaLC4ds9NCaf44fd47a4bbGdpC</Value>
