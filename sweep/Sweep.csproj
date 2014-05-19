@@ -213,7 +213,7 @@
     <Content Include="Content\bootstrap-3.1.1\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\bootstrap-3.1.1\js\bootstrap.js" />
     <Content Include="Content\bootstrap-3.1.1\js\bootstrap.min.js" />
-    <Content Include="Content\sweep\css\default.css" />
+    <Content Include="Content\sweep\css\sweep_default.css" />
     <Content Include="Content\sweep\js\jquery.timer.js" />
     <Content Include="Content\sweep\js\sweep_configure.js" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />

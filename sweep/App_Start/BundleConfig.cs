@@ -23,8 +23,6 @@ namespace sweep
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            //bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
-
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",
                         "~/Content/themes/base/jquery.ui.resizable.css",
@@ -43,9 +41,10 @@ namespace sweep
                         "~/Content/bootstrap-3.1.1/css/bootstrap.css"));
             bundles.Add(new ScriptBundle("~/Content/bootstrap/js").Include(
                         "~/Content/bootstrap-3.1.1/js/bootstrap.js"));
-            bundles.Add(new StyleBundle("~/Content/sweep/css").Include(
-                        "~/Content/sweep/css/default.css"));
-            bundles.Add(new ScriptBundle("~/Content/sweep/js").Include(
+
+            bundles.Add(new StyleBundle("~/Content/css").Include(
+                        "~/Content/sweep/css/sweep_default.css"));
+            bundles.Add(new ScriptBundle("~/Content/js").Include(
                         "~/Content/sweep/js/jquery.timer.js",
                         "~/Content/sweep/js/sweep_configure.js"));
 
